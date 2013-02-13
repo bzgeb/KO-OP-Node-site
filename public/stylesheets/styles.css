@@ -221,7 +221,14 @@ a .none {
   background-color: #000000;
 }
 
+
 .subscribe:active {
   position: relative;
   top: 1px;
+}
+
+.shadowed {
+  -moz-box-shadow: inset 0px 0px 10px 1px #AAAAAA;
+  -webkit-box-shadow: inset 0px 0px 10px 1px #AAAAAA;
+  box-shadow: inset 0px 0px 10px 1px #AAAAAA;
 }
