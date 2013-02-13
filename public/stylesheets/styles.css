@@ -1,243 +1,199 @@
-/* line 1, ../../app/assets/stylesheets/scaffolds.css.scss */
 .center {
   text-align: center;
 }
 
-/* line 5, ../../app/assets/stylesheets/scaffolds.css.scss */
 .justify {
   float: none;
   margin: 0 auto;
   text-align: justify;
 }
 
-/* line 11, ../../app/assets/stylesheets/scaffolds.css.scss */
 .right {
   text-align: right;
 }
 
-/* line 15, ../../app/assets/stylesheets/scaffolds.css.scss */
 body {
   color: #FFF;
   font-family: 'Arimo', Helvetica, sans-serif;
   font-size: 16px;
 }
 
-/* line 21, ../../app/assets/stylesheets/scaffolds.css.scss */
 h1 {
   font-weight: 700;
 }
 
-/* line 25, ../../app/assets/stylesheets/scaffolds.css.scss */
 .highlight {
   font-style: italic;
   color: #BBB;
 }
 
-/* line 30, ../../app/assets/stylesheets/scaffolds.css.scss */
 .bottom-large-spacer {
   padding-bottom: 60px;
 }
 
-/* line 34, ../../app/assets/stylesheets/scaffolds.css.scss */
 .bottom-med-spacer {
   padding-bottom: 40px;
 }
 
-/* line 38, ../../app/assets/stylesheets/scaffolds.css.scss */
 .bottom-small-spacer {
   padding-bottom: 20px;
 }
 
-/* line 42, ../../app/assets/stylesheets/scaffolds.css.scss */
 .top-small-spacer {
   padding-top: 20px;
 }
 
-/* line 46, ../../app/assets/stylesheets/scaffolds.css.scss */
 .top-med-spacer {
   padding-top: 40px;
 }
 
-/* line 50, ../../app/assets/stylesheets/scaffolds.css.scss */
 .top-large-spacer {
   padding-top: 60px;
 }
 
-/* line 56, ../../app/assets/stylesheets/scaffolds.css.scss */
 .ko-op {
   background-color: white;
 }
 
-/* line 60, ../../app/assets/stylesheets/scaffolds.css.scss */
 .ko-op p {
   color: black;
 }
 
-/* line 64, ../../app/assets/stylesheets/scaffolds.css.scss */
 .ko-op .right-col {
   text-align: right;
 }
 
-/* line 68, ../../app/assets/stylesheets/scaffolds.css.scss */
 .ko-op a {
   color: #7a7a7a;
 }
 
-/* line 72, ../../app/assets/stylesheets/scaffolds.css.scss */
 .ko-op p {
   color: #7a7a7a;
 }
 
-/* line 76, ../../app/assets/stylesheets/scaffolds.css.scss */
 .ko-op .grey {
   color: #424242;
 }
 
-/* line 80, ../../app/assets/stylesheets/scaffolds.css.scss */
 .ko-op .underline {
   text-decoration: underline;
 }
 
-/* line 84, ../../app/assets/stylesheets/scaffolds.css.scss */
 .ko-op h4 {
   color: #000;
   font-size: 20px;
   font-weight: 400;
 }
 
-/* line 90, ../../app/assets/stylesheets/scaffolds.css.scss */
 .ko-op h3 {
   color: #000;
   font-size: 24px;
   font-weight: 400;
 }
 
-/* line 96, ../../app/assets/stylesheets/scaffolds.css.scss */
 .games {
   background-color: white;
-  background-image: url("light_noise_diagonal.png");
+  background-image: url("/images/light_noise_diagonal.png");
 }
 
-/* line 101, ../../app/assets/stylesheets/scaffolds.css.scss */
 .games p {
   color: #5e5e5e;
 }
 
-/* line 105, ../../app/assets/stylesheets/scaffolds.css.scss */
 .games h3 {
   color: #5e5e5e;
   font-size: 20px;
   font-weight: 400;
 }
 
-/* line 115, ../../app/assets/stylesheets/scaffolds.css.scss */
 .footer p {
   color: #797979;
 }
 
-/* line 119, ../../app/assets/stylesheets/scaffolds.css.scss */
 .footer h3 {
   color: #797979;
   font-size: 22px;
   font-weight: 400;
 }
 
-/* line 125, ../../app/assets/stylesheets/scaffolds.css.scss */
 .footer .black {
   color: #000;
 }
 
-/* line 129, ../../app/assets/stylesheets/scaffolds.css.scss */
 .red-rover {
   background-color: black;
   background-image: url("starbg.png");
 }
 
-/* line 134, ../../app/assets/stylesheets/scaffolds.css.scss */
 .red-rover .logo {
   margin-top: 60px;
 }
 
-/* line 138, ../../app/assets/stylesheets/scaffolds.css.scss */
 .red-rover .right-col {
   text-align: right;
 }
 
-/* line 143, ../../app/assets/stylesheets/scaffolds.css.scss */
 .skipping-stones {
   background-color: #400080;
 }
 
-/* line 147, ../../app/assets/stylesheets/scaffolds.css.scss */
 .skipping-stones .logo {
   margin-top: 113px;
 }
 
-/* line 151, ../../app/assets/stylesheets/scaffolds.css.scss */
 .skipping-stones .right-col {
   text-align: right;
 }
 
-/* line 155, ../../app/assets/stylesheets/scaffolds.css.scss */
 .project-container {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 160, ../../app/assets/stylesheets/scaffolds.css.scss */
 a .none {
   color: #FFF;
   text-decoration: none;
 }
 
-/* line 165, ../../app/assets/stylesheets/scaffolds.css.scss */
 .social {
   font-size: 14px;
   color: #444;
 }
 
-/* line 170, ../../app/assets/stylesheets/scaffolds.css.scss */
 .social a {
   color: #444;
   text-decoration: underline;
 }
 
-/* line 175, ../../app/assets/stylesheets/scaffolds.css.scss */
 .social .none {
   text-decoration: none;
 }
 
-/* line 179, ../../app/assets/stylesheets/scaffolds.css.scss */
 .social h3 {
   margin-bottom: 16px;
   color: #444;
 }
 
-/* line 184, ../../app/assets/stylesheets/scaffolds.css.scss */
 .social .small p {
   font-size: 12px;
   color: #444;
 }
 
-/* line 189, ../../app/assets/stylesheets/scaffolds.css.scss */
 .copyright p {
   color: #BBB;
   font-size: 11px;
 }
 
-/* line 194, ../../app/assets/stylesheets/scaffolds.css.scss */
 .ko-op .textfield {
   width: 170px;
   margin-right: 5px;
   margin-top: 10px;
 }
 
-/* line 200, ../../app/assets/stylesheets/scaffolds.css.scss */
 .ko-op .field {
   display: inline;
 }
 
-/* line 204, ../../app/assets/stylesheets/scaffolds.css.scss */
 .subscribe {
   -moz-box-shadow: inset 0px 1px 0px 0px #000000;
   -webkit-box-shadow: inset 0px 1px 0px 0px #000000;
@@ -258,7 +214,6 @@ a .none {
   text-shadow: 1px 1px 0px #000000;
 }
 
-/* line 222, ../../app/assets/stylesheets/scaffolds.css.scss */
 .subscribe:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, black), color-stop(1, black));
   background: -moz-linear-gradient(center top, black 5%, black 100%);
@@ -266,7 +221,6 @@ a .none {
   background-color: #000000;
 }
 
-/* line 227, ../../app/assets/stylesheets/scaffolds.css.scss */
 .subscribe:active {
   position: relative;
   top: 1px;
