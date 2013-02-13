@@ -1,8 +1,12 @@
 /**
  * Module dependencies.
  */
-var configs = require('./configs')
-  , express = require('express')
+try {
+  var configs = require('./configs');
+} catch (error) {
+  //ignore 
+}
+var express = require('express')
   , stylus = require('stylus')
   , nib = require('nib')
   , MailChimpAPI = require('mailchimp').MailChimpAPI;
