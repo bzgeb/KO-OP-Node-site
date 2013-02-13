@@ -39,6 +39,10 @@ h1 {
   padding-bottom: 20px;
 }
 
+.bottom-xsmall-spacer {
+  padding-bottom: 10px; 
+}
+
 .top-small-spacer {
   padding-top: 20px;
 }
