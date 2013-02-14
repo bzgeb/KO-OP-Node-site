@@ -21,6 +21,7 @@ try {
 } catch (error) {
     console.log(error.message);
 }
+
 /**
  * App.
  */
@@ -56,12 +57,6 @@ app.get('/', function (req, res) {
 
 app.post('/mailing_list/subscribe', function (req, res) {
   var email = req.body.email;
-
-  api.listMemberInfo({ id: mc_newsletter_id, email_address: [email]},
-      function(error, data) {
-          console.log("Error: " + error);
-          console.log("Data: " + JSON.stringify(data));
-      });
 
   api.listSubscribe({ id: mc_newsletter_id, 
                       email_address: email,
