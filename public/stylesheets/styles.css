@@ -55,6 +55,38 @@ h1 {
   padding-top: 60px;
 }
 
+.left-xsmall-spacer {
+  padding-left: 10px;
+}
+
+.left-small-spacer {
+  padding-left: 20px;
+}
+
+.left-med-spacer {
+  padding-left: 40px;
+}
+
+.left-large-spacer {
+  padding-left: 60px;
+}
+
+.right-xsmall-spacer {
+  padding-right: 10px;
+}
+
+.right-small-spacer {
+  padding-right: 20px;
+}
+
+.right-med-spacer {
+  padding-right: 40px;
+}
+
+.right-large-spacer {
+  padding-right: 60px;
+}
+
 .ko-op {
   background-color: white;
 }
