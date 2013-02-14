@@ -52,7 +52,7 @@
       <div class="ko-op">
         <div class="container">
             <!-- Desktop & Tablet Header -->
-            <div class="row top-small-spacer bottom-small-spacer">
+            <div class="row top-small-spacer bottom-small-spacer hidden-phone">
                 <div class="span5">
                     <img alt="Ko-op" src="/images/ko-op.png" style="float:left; margin-right:30px;" width="64px" />
                     <p class="top-large-spacer">Indie Game Label</p>
@@ -67,6 +67,23 @@
                 </div>
             </div>
 
+            <!-- Phone -->
+            <div class="row top-small-spacer bottom-small-spacer visible-phone">
+                <div class="span5">
+                    <img alt="Ko-op" src="/images/ko-op.png" style="float:left; margin-right:30px;" width="64px" />
+                    <p class="top-large-spacer">Indie Game Label</p>
+                </div>
+
+                <div class="span5 top-large-spacer">
+                    <a href="#" style="margin-right:0px">Games</a>
+                    <a href="#" style="margin-left:16px;margin-right:0px">About Us</a>
+                    <a href="#" style="margin-left:16px">Blogs</a>
+                    <a href="https://www.facebook.com/koopmode" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'Facebook']);"><img alt="Fb" src="/images/fb.png" style="margin-left:16px;margin-right:0px" width="20px" /></a>
+                    <a href="http://www.twitter.com/koopmode" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'Twitter']);"><img alt="Twitter" src="/images/twitter.png" style="margin-left:16px;margin-right:0px" width="24px" /></a>
+                </div>
+            </div>
+
+
             <div class="row">
                 <div class="span12">
                     <iframe width="100%" height="529" src="http://www.youtube.com/embed/_NnH1MesbKg?rel=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
@@ -79,7 +96,8 @@
                 </div>
             </div>
 
-            <div class="row">
+            <!-- Phone -->
+            <div class="row hidden-phone">
                 <div class="span4">
                     <h3>Coming Soon</h3>
                     <h4>For iOS/Android/PC/Mac/Linux</h4>
@@ -89,6 +107,28 @@
                     <img alt="Stone" src="/images/stone.png" />
                 </div>
                 <div class="span4 offset1 right">
+                    <h3>Get Notified of the Release</h3>
+                    <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
+                        <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
+                        <input class="subscribe" name="commit" type="submit" value="Subscribe" />
+                        <div style="height:25px" id="response">
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="row visible-phone">
+                <div class="span4 center bottom-med-spacer">
+                    <h3>Coming Soon</h3>
+                    <h4>For iOS/Android/PC/Mac/Linux</h4>
+                    <p class="grey top-small-spacer">Read the <a href="#" class="underline grey">development blog</a></p>
+                </div>
+                <div class="span4 center bottom-med-spacer">
+                    <img alt="Stone" src="/images/stone.png" />
+                </div>
+                <div class="span4 center">
                     <h3>Get Notified of the Release</h3>
                     <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
                         <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
