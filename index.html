@@ -180,10 +180,11 @@
                 </div>
             </div>
 
-            <div class="row bottom-small-spacer">
+            <div class="row bottom-xsmall-spacer">
                 <!-- Destop & Tablet -->
                 <div class="span6 hidden-phone">
-                    <h3>Reach us by email or</h3>
+                    <h3>Subscribe to our general mailing list</h3>
+                    <h4>Newsletter, game announcements and releases</h4>
                 </div>
 
                 <div class="span3 hidden-phone">
@@ -230,6 +231,14 @@
 
             <div class="row hidden-phone">
                 <div class="span6">
+                    <form accept-charset="UTF-8" action="mailing_list/subscribe_general" class="mail-form" data-remote="true" id="general-mail-form" method="post">
+                        <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
+                        <input class="subscribe" name="general_subscribe" type="submit" value="Subscribe" />
+                        <div style="height:35px" id="general-response">
+                            <p>Poop</p>
+                        </div>
+                    </form>
+
                     <div class="fb-like" data-href="https://www.facebook.com/koopmode" data-send="false" data-width="250" data-show-faces="false" data-font="verdana"></div>
                     <div class="bottom-xsmall-spacer"></div>
                     <a href="https://twitter.com/koopmode" class="twitter-follow-button" data-show-count="false">Follow @koopmode</a>

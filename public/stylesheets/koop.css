@@ -73,6 +73,10 @@ h1 {
   font-weight: 400;
 }
 
+.footer h4 {
+  color: #797979;
+}
+
 .footer .black {
   color: #000;
 }

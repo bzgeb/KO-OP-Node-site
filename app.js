@@ -57,13 +57,34 @@ app.get('/', function (req, res) {
 
 app.post('/mailing_list/subscribe', function (req, res) {
   var email = req.body.email;
+  subscribe(email, mc_interest_group, res);
+});
 
+app.post('/mailing_list/subscribe_general', function (req, res) {
+  var email = req.body.email;
+  subscribe(email, "General All Purpose", res);
+});
+
+
+/**
+ * App listen.
+ */
+
+var port = process.env.PORT || 3000;
+app.listen(port, function () {
+  var addr = app.address();
+  console.log('   app listening on http://' + addr.address + ':' + addr.port);
+});
+
+
+// Subscribe to our mailing list
+function subscribe(email, groups, res) {
   api.listSubscribe({ id: mc_newsletter_id, 
                       email_address: email,
                       merge_vars: {EMAIL: email,
                                   FNAME: '',
                                   LNAME: '',
-                                  GROUPINGS: [{id: 8953, groups: mc_interest_group}]}},
+                                  GROUPINGS: [{id: 8953, groups: groups}]}},
     function(error, data) {
       if (error) {
         var error_message = "";
@@ -75,11 +96,11 @@ app.post('/mailing_list/subscribe', function (req, res) {
         }
         // Already a Member, so we update his interests
         else if ( error.code == 214 ) {
-           error_message = "You've been added to the " + mc_interest_group + " group.";
+           error_message = "You've been added to the " + groups + " group.";
            api.listUpdateMember({ id: mc_newsletter_id, 
                                   email_address: email,
                                   merge_vars: {EMAIL: email,
-                                               GROUPINGS: [{id: 8953, groups: mc_interest_group}]},
+                                               GROUPINGS: [{id: 8953, groups: groups}]},
                                   replace_interests: false},
                                   function(error, data) {
                                       if (error) {
@@ -99,14 +120,5 @@ app.post('/mailing_list/subscribe', function (req, res) {
         res.send("<p>You are subscribed.  Please check your email for a confirmation.</p>");
       }
     });
-});
+};
 
-/**
- * App listen.
- */
-
-var port = process.env.PORT || 3000;
-app.listen(port, function () {
-  var addr = app.address();
-  console.log('   app listening on http://' + addr.address + ':' + addr.port);
-});
