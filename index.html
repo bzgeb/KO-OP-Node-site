@@ -111,17 +111,24 @@
 
             </div>
 
-            <!-- Phone -->
-            <div class="row hidden-phone">
-                <div class="span4">
+            <div class="row">
+                <!-- Desktop -->
+                <div class="span4 hidden-phone">
                     <h3>Coming Soon</h3>
                     <h4>For iOS/Android/PC/Mac/Linux</h4>
                     <p class="grey top-small-spacer">Read the <a href="#" class="underline grey">development blog</a></p>
                 </div>
-                <div class="span2 offset1 center">
+                <!-- Phone -->
+                <div align="center" class="span4 visible-phone">
+                    <h3>Coming Soon</h3>
+                    <h4>For iOS/Android/PC/Mac/Linux</h4>
+                    <p class="grey top-small-spacer">Read the <a href="#" class="underline grey">development blog</a></p>
+                </div>
+
+                <div align="center" class="span2 offset1">
                     <img alt="Stone" src="/images/stone.png" />
                 </div>
-                <div class="span4 offset1 right">
+                <div class="span4 offset1">
                     <h3>Get Notified of the Release</h3>
                     <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
                         <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
@@ -134,27 +141,6 @@
                 </div>
             </div>
 
-            <div class="row visible-phone">
-                <div class="span4 center bottom-small-spacer">
-                    <h3>Coming Soon</h3>
-                    <h4>For iOS/Android/PC/Mac/Linux</h4>
-                    <p class="grey top-small-spacer">Read the <a href="#" class="underline grey">development blog</a></p>
-                </div>
-                <div class="span4 center bottom-small-spacer">
-                    <img alt="Stone" src="/images/stone.png" />
-                </div>
-                <div class="span4 center">
-                    <h3>Get Notified of the Release</h3>
-                    <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
-                        <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
-                        <input class="subscribe" name="commit" type="submit" value="Subscribe" />
-                        <div style="height:25px" id="response">
-
-                        </div>
-
-                    </form>
-                </div>
-            </div>
         </div>
     </div>
 
