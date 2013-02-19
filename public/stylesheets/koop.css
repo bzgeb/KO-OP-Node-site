@@ -146,6 +146,11 @@ a .none {
   color: #444;
 }
 
+.copyright a {
+  color: #666;
+  text-decoration: underline;
+}
+
 .copyright p {
   color: #BBB;
   font-size: 11px;
