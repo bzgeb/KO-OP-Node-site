@@ -1,4 +1,5 @@
 body {
+  background-color: #000;
   color: #FFF;
   font-family: 'Arimo', Helvetica, sans-serif;
   font-size: 16px;
@@ -8,12 +9,8 @@ h1 {
   font-weight: 700;
 }
 
-.ko-op {
-  background-color: white;
-}
-
 .ko-op p {
-  color: black;
+  color: #fff;
 }
 
 .ko-op .right-col {
@@ -21,11 +18,14 @@ h1 {
 }
 
 .ko-op a {
-  color: #7a7a7a;
+  color: #fff;
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
 }
 
 .ko-op p {
-  color: #7a7a7a;
+  color: #fff;
 }
 
 .ko-op .grey {
@@ -67,6 +67,10 @@ h1 {
   color: #5e5e5e;
   font-size: 20px;
   font-weight: 400;
+}
+
+.footer {
+  background-color: #fff;
 }
 
 .footer p {
@@ -187,7 +191,7 @@ a .none {
   display: inline;
 }
 
-.subscribe {
+/*.subscribe {
   -moz-box-shadow: inset 0px 1px 0px 0px #000000;
   -webkit-box-shadow: inset 0px 1px 0px 0px #000000;
   box-shadow: inset 0px 1px 0px 0px #000000;
@@ -219,6 +223,26 @@ a .none {
 .subscribe:active {
   position: relative;
   top: 1px;
+}
+*/
+
+.subscribe {
+  background-color:#000000;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  color:#ffffff;
+  font-family:arial;
+  font-size:14px;
+  padding:6px 24px;
+  text-decoration:none;
+}.subscribe:hover {
+  background-color:#000000;
+}.subscribe:active {
+  position:relative;
+  top:1px;
 }
 
 .shadowed {
