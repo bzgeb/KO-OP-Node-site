@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+     <meta name="description" content"KO-OP Mode is a collective of game developers and jammers making weird, beautiful, and experimental games. Play them now.">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
-    <title>KO-OP Mode | Home</title>
+    <title>KO-OP Mode - Experimental Game Collective</title>
     <meta content="authenticity_token" name="csrf-param" />
     <meta content="tQiVCeewt5ttIjE+Yz3DkgNRfA4kahOv8KdS/nnmn04=" name="csrf-token" />
 
@@ -43,7 +44,7 @@
       <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
       <style type="text/css">
         body {
-            background: url('images/background.png') no-repeat 50% 630px;
+            background: url('images/background.png') no-repeat top;
         }
       </style>
   </head>
@@ -60,18 +61,31 @@
       <div class="ko-op">
         <div class="container">
 
-            <!-- Desktop & Tablet Header -->
-            <div class="row top-small-spacer bottom-small-spacer">
-                    <div class="span12 bottom-small-spacer" align="right">
+            <!-- Header -->
+            <div class="row top-small-spacer bottom-xsmall-spacer">
+                    <div class="span12 bottom-xsmall-spacer" align="center">
                     <a href="#Games" style="margin-right:0px; font-size:20px">Games</a>
                     <a href="http://koopmodeblog.tumblr.com/" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'Blog']);" style="margin-left:12px; font-size:20px;">Blog</a></div>
+                    <!--
                     <div class="span12">
                     <img alt="Skipping Stones logo" src="/images/skipping-stones.png">
                     </div>
+                    -->
+            <!-- Video -->        
             </div>    
-                <div class="row bottom-small-spacer">
+                <div class="row bottom-small-spacer visible-desktop">
                     <div align="center" class="span12">
-                        <iframe width="80%" height="322px" src="http://www.youtube.com/embed/_NnH1MesbKg" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+                        <iframe width="80%" height="420px" src="http://www.youtube.com/embed/FpUbkQK0WhE?showinfo=0&controls=0&rel=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="row bottom-small-spacer visible-tablet">
+                    <div align="center" class="span12">
+                        <iframe width="80%" height="320px" src="http://www.youtube.com/embed/FpUbkQK0WhE?showinfo=0&controls=0&rel=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="row bottom-small-spacer visible-phone">
+                    <div align="center" class="span12">
+                        <iframe width="100%" height="200px" src="http://www.youtube.com/embed/FpUbkQK0WhE?showinfo=0&controls=0&rel=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                 </div>
             
@@ -79,10 +93,10 @@
             <div align="center" class="span12">
                 <p><em>Skipping Stones is a musical exploration of beauty in the face of tragedy</em></p>
                     <div class="row top-small-spacer bottom-med-spacer hidden-phone">
-                        <h1 id="big">Coming August</h1>
+                        <a href="http://www.skippingstonesgame.com" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'SSheader']);"><h1 id="big">Coming Soon</h1></a>
                     </div>
                     <div class="row top-small-xspacer visible-phone">
-                            <h1>Coming August</h1>
+                            <h1>Coming Soon</h1>
                     </div>
                 <h3>For PC/Mac/Linux & iOS/Android</h3>
                 <h2>Get notified on the release</h2>
@@ -91,7 +105,7 @@
                     <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
                     <br><br>
                     <input class="subscribe" name="commit" type="submit" value="Subscribe" />
-                    <div style="height:45px;" id="response">
+                    <div style="height:25px;" id="response">
                     </div>
                 </form>
                     <div class="fb-like" data-href="https://www.facebook.com/koopmode" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-font="verdana"></div> 
