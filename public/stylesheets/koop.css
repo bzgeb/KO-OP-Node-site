@@ -16,8 +16,10 @@ h1 {
 }*/
 
 #big {
-  font-size: 72px;
+  font-size: 64px;
+  color: #d93554;
 }
+
 
 .ko-op p {
   color: #000000;
@@ -245,23 +247,20 @@ a .none {
 */
 
 .subscribe {
-  -moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
-  -webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
-  box-shadow:inset 0px 0px 0px 0px #ffffff;
-  background-color:#c7c7c7;
-  -moz-border-radius:3px;
-  -webkit-border-radius:3px;
-  border-radius:3px;
-  border:1px solid #dcdcdc;
+  background-color:#d6d3d6;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #FFFFFF;
   display:inline-block;
-  color:#495161;
-  font-family:arial;
-  font-size:16px;
+  color:#777777;
+  font-family:lato;
+  font-size:15px;
   font-weight:bold;
-  padding:8px 25px;
+  padding:6px 24px;
   text-decoration:none;
 }.subscribe:hover {
-  background-color:#a3a3a3;
+  background-color:#dfdfdf;
 }.subscribe:active {
   position:relative;
   top:1px;
