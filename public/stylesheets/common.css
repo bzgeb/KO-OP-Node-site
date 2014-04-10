@@ -21,6 +21,10 @@
   padding-bottom: 60px;
 }
 
+.bottom-xlarge-spacer {
+  padding-bottom: 120px;
+}
+
 .bottom-med-spacer {
   padding-bottom: 40px;
 }
@@ -37,8 +41,16 @@
   padding-top: 20px;
 }
 
+.top-xsmall-spacer {
+  padding-top: 10px;
+}
+
 .top-med-spacer {
   padding-top: 40px;
+}
+
+.top-xlarge-spacer {
+  padding-top: 120px;
 }
 
 .top-large-spacer {
