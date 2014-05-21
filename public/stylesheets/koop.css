@@ -22,6 +22,10 @@ body {
 	font-family: "Bariol Light", Helvetica, sans-serif;
 	font-size: 200%;
 	color: #fff;
+	/* Prevent elements from flickering due to CSS Transforms */
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
 }
 
 
@@ -43,8 +47,16 @@ body {
 .bottom {
 	color: #000;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 24px;
+	font-weight: 400;
+	font-size: 1.25em;
 	background-color: #FFF;
+}
+
+.extra {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1.25em;
+	color: #e40068;
 }
 
 .h2 {
@@ -97,6 +109,11 @@ body {
 	padding: 15 15px;
 
 }
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+   overflow: hidden !important;
+}
 
 .header a {
 	color: #c2ff8f;
@@ -141,7 +158,7 @@ h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	color: #000;
-	background-color: #ffe9c8 ;
+	background-color: #f0f0ff ;
 
 }
 
@@ -280,9 +297,6 @@ a.presskit {
 
 */
 
-a:hover {
-
-}
 
 .flex-video {
   position: relative;
@@ -390,4 +404,58 @@ a:hover {
 }.subscribephone:active {
 	position:relative;
 	top:1px;
+}
+
+
+.media-flex {
+    position: relative;
+    height: 0px;
+}
+
+.media-flex .gfyitem > div,
+.media-flex .gfyitem .gfyPreLoadCanvas,
+.media-flex .gfyitem .gfyVid,
+.media-flex .gfyitem  .gfyGif {
+    position: absolute !important;
+    top: 0; right: 0; bottom: 0; left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Border Fade */
+.border-fade {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+.border-fade:hover, .border-fade:focus, .border-fade:active {
+  box-shadow: inset 0 0 0 4px #666666, 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+
+/* Grow */
+
+.grow {
+  display: inline-block;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
 }
