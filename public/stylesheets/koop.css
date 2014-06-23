@@ -96,7 +96,6 @@ body {
 
 .header {
 	background-image: url(/images/bgstars.png);
-	background-attachment: fixed;
 	font-size: 32px;
 	color: #FFF;
 }
