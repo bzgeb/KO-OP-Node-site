@@ -96,6 +96,7 @@ body {
 
 .header {
 	background-image: url(/images/bgstars.png);
+	background-repeat: repeat;
 	font-size: 32px;
 	color: #FFF;
 }
@@ -129,9 +130,11 @@ h1 {
 }
 
 .h1 { 
-	font-family: "Bariol Big", Helvetica, sans-serif;
+	font-family: "Bariol Big", sans-serif;
+	font-weight: 600;
 	font-size: 200%;
-	color: #baff82;
+	color: #caff9b;
+
 
  }
 
