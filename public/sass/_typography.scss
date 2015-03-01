@@ -1,0 +1,17 @@
+// Bariol
+@font-face {
+  font-family: "Bariol Big";
+  src: url("/type/bariol_bold-webfont.eot");
+  src: local("☺"),
+    url("/type/bariol_bold-webfont.woff") format("woff"),
+    url("/type/bariol_bold-webfont.otf") format("opentype"),
+    url("/type/bariol_bold-webfont.svg#bariol_boldbold") format("svg");
+  }
+@font-face {
+  font-family: "Bariol Light";
+  src: url("/type/bariol_light-webfont.eot");
+  src: local("☺"),
+    url("/type/bariol_light-webfont.woff") format("woff"),
+    url("/type/bariol_light-webfont.otf") format("opentype"),
+    url("/type/bariol_light-webfont.svg#bariol_lightlight") format("svg");
+  }

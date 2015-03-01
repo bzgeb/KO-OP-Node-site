@@ -55,6 +55,26 @@ app.get('/', function (req, res) {
   res.render('index.html', { layout: false });
 });
 
+app.get('/store', function (req, res) {
+  res.render('store.html', { layout: false });
+});
+
+app.get('/games', function (req, res) {
+  res.render('games.html', { layout: false });
+});
+
+app.get('/kolab', function (req, res) {
+  res.render('kolab.html', { layout: false });
+});
+
+app.get('/workshops', function (req, res) {
+  res.render('workshops.html', { layout: false });
+});
+
+app.get('/gardenarium', function (req, res) {
+  res.render('gardenarium.html', { layout: false });
+});
+
 app.post('/mailing_list/subscribe', function (req, res) {
   var email = req.body.email;
   subscribe(email, mc_interest_group, res);

@@ -1,0 +1,73 @@
+body {
+	font-size: 200%;
+	font-family: "soleil" ;
+}
+
+/*Navbar styling*/
+.navbar {
+	background-color: #b4b4b4;
+	border-radius: 0;
+}
+
+.navbar-custom {
+	font-family: "soleil";	
+	font-size: 1.2em;
+	background-color: #b4b4b4;
+	border-radius: 0;
+}
+
+ .navbar-custom a {
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+ .navbar-custom a:hover {
+ 	color: #fff!important;
+}
+
+#active {
+	color: #fff !important;
+	/*text-decoration: underline;*/
+}
+
+
+/*Main Styling*/
+
+.h1 {
+	font-family: "Soleil", sans-serif;
+}
+
+.header div {
+	margin-top: 10px;
+}
+
+.gallery div {
+	margin-top: 30px;
+}
+
+#headline {
+	background-image: url(/images/store/wallpaper2FacesRed.png);
+	background-size: 100%;
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: #fff;
+
+}
+
+.img-container {
+	position: relative;
+}
+
+.text-container {
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	font-size: 3em;
+	margin-left: 20px;
+	font-weight: 800;
+}
+
+.text-container a{
+	color: #FFF;
+}

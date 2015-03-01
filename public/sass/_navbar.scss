@@ -1,0 +1,47 @@
+$bg-color-home: #FFF;
+$bg-color-store: #FFF;
+$link-color: #8C8589;
+
+
+/*Navbar styling*/
+
+.navbar {
+	background-color: $bg-color-home;
+	border-radius: 0;
+}
+
+.navbar-custom {
+	font-family: "soleil";	
+	font-size: 1em;
+	font-weight: 500;
+	border-radius: 0;
+
+	a {
+		text-decoration: none;
+		margin-right: 5px;
+		// Remove this for collapsed navbar
+		margin-bottom: 10px; 
+		color: #2B2B2B !important;
+	}
+	a:hover {
+ 	color: $link-color !important;
+
+	}
+
+}
+
+#active {
+	color: #fff !important;
+	/*text-decoration: underline;*/
+}
+
+@media (max-width: 979px) {
+  .navbar-fixed-top.navbar-absolute {
+    position: absolute;
+    margin: 0;
+  }
+}
+
+.navbar-absolute + div {
+    margin-top: 68px;
+}

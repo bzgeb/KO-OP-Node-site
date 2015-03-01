@@ -1,0 +1,12 @@
+body {
+	font-size: 200%;
+	/* Prevent elements from flickering due to CSS Transforms */
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+
+	
+
+}
+

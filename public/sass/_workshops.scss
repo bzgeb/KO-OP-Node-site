@@ -1,0 +1,63 @@
+$workshop-emphasis: #EB4958;
+$workshop-link-color: #EB4958;
+$workshop-hover-color: #C9293D;
+$workshop-comingsoon-color: #737373;
+
+.workshops {
+
+	font-size: .75em;
+	color: $general-text-color;
+
+	.lead {
+		background-image: url('/images/workshops-photo.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center;
+		color: white;
+	}
+
+	.h1 {
+		font-style: italic;
+		// text-decoration: underline;
+		font-weight: 600;
+		color: $general-text-color;
+		.footer {
+			color: $highlight-color;
+		}
+	}
+	.h2 {
+		font-size: 1.5em;
+		text-decoration: underline;
+		
+	}
+
+	a {
+		color: $workshop-link-color;
+	}
+
+	a:hover {
+		color: $workshop-hover-color;
+	}
+
+	a:visited {
+		color: $workshop-hover-color;
+	}
+
+	.comingsoon {
+		color: $workshop-comingsoon-color;
+	}
+
+	.sectionbreak {
+
+		background-color: #484848;
+
+	}
+	.textfield {
+	line-height: 1.8em;
+	// background-color: $emphasis-color;
+	// border-style: hidden;
+	// border-radius: 3px;
+	}
+
+}
+
