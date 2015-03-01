@@ -1,0 +1,102 @@
+$games-bg-color: #F2F5F5;
+
+
+.games-navbar {
+	background-color: $games-bg-color
+}
+
+.games-container{
+
+
+
+	font-family: $body-font;
+	color: $header-color;
+	background-color: #fff;
+	.footer {
+	font-style: italic;
+}
+
+
+
+
+}
+
+
+.gallery {
+	p {
+		
+	}
+
+	.name {
+		float: left;
+		display: inline;
+		font-weight: 800;
+	}
+
+	.details {
+		float: right;
+		display: inline;
+	}
+
+	.status {
+		font-weight: 500;
+	}
+}
+
+.games-footer {
+
+	background-color: $games-bg-color;
+}
+
+
+.image-wrapper { 
+
+	position: relative; width: 100%;  	
+ 			.text-wrapper { 
+ 				position: absolute; 
+ 				right: 0;
+ 				bottom: 0; 
+				padding-left: 30px; 
+ 				width: 100%; 
+ 				height: 170px;
+ 				color: #FFF;
+ 				background-color: rgba(0,0,0,0.65);
+ 				}
+
+
+ 					text-align: left;
+
+ 				.h1 {
+ 					font-size: 2.2em;
+ 					font-weight: 800;
+ 				}
+
+ 				p {
+ 					font-weight: 500;
+ 				}
+
+ 				a {
+ 					margin-bottom: 10px;
+ 					color: #fff;
+ 					font-weight: 600;
+ 				}
+
+ 		.link-wrapper {
+ 			position: absolute;
+ 			overflow: auto;
+ 			display: inline-block;
+ 			top: 0;
+ 			right: 0;
+ 			padding-right: 30px;
+ 			padding-top: 30px;
+ 			// border: 2px solid #FFF;
+
+ 		}
+
+ 		.btn-default {
+ 			// background-color: $highlight-color;
+ 			background-color: #3FB674;
+ 			border: none;
+ 		}
+
+	}

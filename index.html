@@ -3,11 +3,11 @@
   <head>
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KO-OP Mode - Experimental Game Collective</title>
-    <meta name="Description" content="KO-OP is a game collective creating unique and experimental games. Check out Please Don't, Spacedog! GNOG, Fledge, and more games by us.">
+    <meta name="Description" content="KO-OP is a game collective making unique and experimental games. Check out Please Don't, Spacedog! GNOG, Fledge, and more.">
     <meta property="og:title" content="KO-OP Mode" />
     <meta property="og:site_name" content="KO-OP - Experimental Game Collective"/>
     <meta property="og:image" content="http://www.ko-opmode.com/images/share.png" />
-    <meta property="og:description" content="KO-OP is a game collective creating unique and experimental games. Check out Please Don't, Spacedog! GNOG, Fledge, and more games." />
+    <meta property="og:description" content="KO-OP is a game collective making unique and experimental games. Check out Please Don't, Spacedog! GNOG, and more." />
     <meta property="og:url" content="http://www.ko-opmode.com/">
     <meta property="og:type" content="game">
     <meta property="fb:admins" content="13616068" />
@@ -18,18 +18,24 @@
     <meta name="twitter:description" content="KO-OP Mode is a Montreal based collective of game developers working both independently and together to create unique and experimental games.">
     <meta name="twitter:image:src" content="http://ko-opmode.com/images/share.png">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Typekit -->
+    <script src="//use.typekit.net/saa8wux.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+
     <!-- Bootstrap -->
-    <link href="/stylesheets/normalize.css?body=1" media="all" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/bootstrap.min.css?body=1" media="all" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/common.css?body=1" media="all" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/koop.css?body=1" media="all" rel="stylesheet" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300' rel='stylesheet' type='text/css'>
+
+    <link href="/stylesheets/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/css/main.css" media="all" rel="stylesheet" type="text/css" />
+   
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+
   </head>
   <body>
   	<div id="fb-root"></div>
@@ -42,229 +48,187 @@
 		  }(document, 'script', 'facebook-jssdk'));
 		  </script>
 
-<!-- Header Content -->
-<div class="header">
-  <div class="container">
-    <div class="row">
-        <div class="col-xs-12 top-med-spacer bottom-large-spacer hidden-xs" align="center">
-          <img src="/images/ko-opgnah.png" class="img-responsive" width="113px">
-        </div>
-        <div class="col-xs-12 top-med-spacer bottom-small-spacer visible-xs" align="center">
-          <img src="/images/ko-opgnah.png" class="img-responsive  bottom-small-spacer" width="20%">
-        </div>
-        <!-- Video/Header -->
-        <div class="col-xs-10 col-xs-offset-1" align="center">
-           <div onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'; document.getElementById('iframe').src = document.getElementById('iframe').src.replace('autoplay=0','autoplay=1'); ">
-           <img src="/images/newgnahvideo2.png" class=" img-responsive  bottom-large-spacer" style="cursor:pointer" /></div>
-           <div class="flex-video widescreen"  id="thevideo" style="display:none">
-           <iframe id="iframe"  src="//www.youtube.com/embed/DKwQQM5Nm-Y?autoplay=0&showinfo=0&controls=2&rel=0" frameborder="0" allowscriptaccess="always" allowfullscreen="true"></iframe>
-           </div>
-           </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 hidden-xs bottom-small-spacer" align="center">
-        <p class="h1">GNOG</p>
-        <p class="bold" align="center">A new KO-OP game coming to Steam<br>for PC, Mac, & Linux <a href="http://www.gnoggame.com">Visit the website</a></p>    
-      </div>
-      <!-- Phone -->
-            <div class="col-xs-12 visible-xs" align="center">
-           <p><span class="h1phone">GNOG</span></p>
-        <p class="boldphone">A new KO-OP game coming to Steam for PC, Mac, & Linux <a href="http://www.gnoggame.com">Visit the website</a></p>    
-      </div>
-    </div>
-  </div>
-</div>
+<nav class="navbar navbar-custom" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="/images/koop-updated-logo.png" class=" img-responsive" width="40"></a>
 
-<!--
-<div class="header">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 top-small-spacer bottom-small-spacer" align="center">
-        <img src="/images/qedlogo.png" class="top-small-spacer bottom-small-spacer img-responsive" width="600px">
-        <div class="col-xs-8 col-xs-offset-2 top-med-spacer" align="center">
-           <div onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'; document.getElementById('iframe').src = document.getElementById('iframe').src.replace('autoplay=0','autoplay=1'); ">
-           <img src="/images/qedvid.png" class=" img-responsive  bottom-large-spacer" style="cursor:pointer" /></div>
-           <div class="flex-video widescreen"  id="thevideo" style="display:none">
-           <iframe id="iframe"  src="//www.youtube.com/embed/j_s4BAWaDn8?autoplay=0&showinfo=0&controls=2&rel=0" frameborder="0" allowscriptaccess="always" allowfullscreen="true"></iframe>
-           </div>
-           </div>
-            </div>
     </div>
-    <div class="clearfix"></div>
-    <div class="col-xs-8 col-xs-offset-2 bottom-small-spacer" align="justify">
-      <p class="h1">Breakdancing sausages. Dance crews. 4-Player CO-OP. Out now on Steam Early Access.</p>
-      <div class="col-xs-6  top-small-spacer bottom-small-spacer" align="center">
-      <a href="http://store.steampowered.com"><img src="/images/steamqed.png" class="img-responsive" width="350px"></a>
-      </div>
-      <div class="col-xs-6 top-small-spacer bottom-small-spacer" align="center">
-      <a href="http://store.steampowered.com"><img src="/images/humbleqed.png" class="img-responsive" width="350px"></a>
-      </div>
-      <div class="col-xs-12" align="center">
-      <img src="/images/widget.png" class="top-small-spacer img-responsive" align="center" width="500px">
-      </div>
-    </div>
-        
-      </div>
+    <div class="top-xsmall-spacer"></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse bottom-small-spacer" id="navbar-collapse">
       
-    </div>
-    
-  </div>
   
-</div>
--->
-
-<!--Games -->
-<div class="bottom">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/games">Games</a></li>
+        <li><a href="http://koopmodeblog.tumblr.com">Blog</a></li>
+        <!-- <li><a href="/store">Store</a></li> -->
+        <!-- <li><a href="/kolab">KOLAB</a></li> -->
+        <li><a href="/workshops">Workshops</a></li>
+        <!-- <li><a href="/podcast">Podcast</a></li> -->
+        <!-- <li><a href="">Fr</a></li> -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--Video background -->
+<!-- <div style="width: 100%; height: 100vh;" 
+    data-vide-bg="/video/test.mp4" data-vide-options="posterType: png, loop: true, muted: false, position: 50% 50%"> -->
+<div class="header" align="center">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 top-med-spacer" align="left">
-      <h1 class="top-small-spacer bottom-large-spacer bottom"><span class="extra">KO-OP</span> is a group of artists making <span class="extra">unique</span> and <span class="extra">experimental</span> games both together and independently.</h1>
+      <div class="col-xs-12 top-large-spacer bottom-small-spacer" align="center">
+         <div onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'; document.getElementById('iframe').src = document.getElementById('iframe').src.replace('autoplay=0','autoplay=1'); ">
+           <img src="/images/ensemblevideo.png" class="img-responsive hidden-xs" style="cursor:pointer" />
+           <img src="/images/ensemblevideomobile.png" width="80%" class="img-responsive visisble-xs hidden-sm hidden-md hidden-lg" style="cursor:pointer" />
+           </div>
+            <div class="col-xs-12 embed-responsive embed-responsive-16by9 top-large-spacer bottom-large-spacer" id="thevideo" style="display:none">
+
+           <iframe class="top-xsmall-spacer bottom-small-spacer" id="iframe" src="//www.youtube.com/embed/FanFarM-4-o?autoplay=0&showinfo=0&controls=2&rel=0" frameborder="0" allowscriptaccess="always" allowfullscreen="true"></iframe>
+           </div>
       </div>
-  </div>  
+      <div class="col-xs-12 top-small-spacer bottom-med-spacer">
+        <p class="h1">Introducing: The Ensemble</p>
+        <p><a href="http://www.gnoggame.com">A new teaser for GNOG</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="description">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 top-large-spacer bottom-large-spacer" align="">
+        <p><span id="highlight">KO-OP</span> is a collective of game makers. Bringing you somethng and something games.</p>
+      </div>
+    </div>
   </div>
 </div>
 
 
-<div class="games" align="center">
+<!-- Explore -->
+<div class="explore">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12 nopadding">
-        <a class="overlay" href="http://spacedog.ko-opmode.com" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'Spacedog']);" ><img alt="Spacedog Banner" src="/images/space3.gif" class="grow img-responsive"/></a>
+    <div class="row top-small-spacer bottom-xsmall-spacer" align="center">
+      <div class="col-sm-3 col-sm-offset-3">
+        <a href="/games"><img src="/images/kooptag.png" class="img-rounded img-responsive" >
+        <p>EXPLORE our <span id="highlight">GAMES</span></p></a>
       </div>
-       <div class="col-md-6 nopadding">
-        <a href="http://ko-op.itch.io/fishjn" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'Fishjn']);" ><img alt="Fishjn Banner" src="/images/fishjn.gif" class="grow img-responsive"/></a>
-       </div>
-      <div class="col-md-6 nopadding">
-        <div class="media-flex" style="padding-bottom: 56.333333%">
-       <a href="http://ko-op.itch.io/kung-fu-volleyball" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'KFVitch']);" ><img alt="KFV Banner" src="/images/kfv3.gif" class="grow img-responsive" /></a>
+      <!-- <div class="col-sm-3">
+        <a href="/kolab"><img src="/images/kolab2.png" class="img-responsive" >
+        <p>SUBMIT to <span id="highlight">KOLAB</span></p></a>
+      </div>
+      <div class="col-sm-3">
+        <a href="http://koopmodeblog.tumblr.com"><img src="/images/Book@2x.png" width="50px" class="img-rounded img-responsive" >
+        <p>READ our <span id="highlight">BLOG</span></p></a>
+      </div> -->
+      <!-- <div class="col-sm-3">
+        <img src="/images/symbol2.png" class="top-med-spacer bottom-xsmall-spacer img-rounded img-responsive" >
+        <p>ABOUT our <span id="highlight">COMPANY</span></p>
+      </div> -->
+       <div class="col-sm-3">
+        <a href="/workshops"><img src="/images/workshopicon.png" width="100px" class="img-responsive">
+        <p>LEARN from our <span id="highlight">WORKSHOPS</span></p></a>
+      </div>
+
+      <!-- Spacer class for second row -->
+ <!--      <div class="col-xs-12 top-med-spacer hidden-xs"></div>
+
+      <div class="col-sm-3 col-sm-offset-3">
+        <a href="http://workshops.ko-opmode.com"><img src="/images/workshopicon.png" width="100px" class="img-responsive">
+        <p>LEARN from our <span id="highlight">WORKSHOPS</span></p></a>
+      </div>
+        <div class="col-sm-3">
+        <img src="/images/symbolbig.png" width="100px" class="img-responsive">
+        <p>SHOP at our <span id="highlight">STORE</span></p>
+        </div> -->
+        <div class="col-xs-12 top-med-spacer">
+          <div class="sectionbreak"></div>
         </div>
-       </div>
-      <div class="col-md-12 nopadding">
-         <a href="http://fledge.ko-opmode.com" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'fledge']);"><img src="/images/fledge.png" alt="facerift" class="grow img-responsive"></a>
-       </div>
-        <div class="col-md-6 nopadding">
-        <a href="http://www.skippingstonesgame.com" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'SkippingStones']);" ><img alt="Skipping Stones Banner" src="/images/skipping.gif" class="grow img-responsive"/></a>
-      </div>
-       <div class="col-md-6 nopadding">
-       <a href="http://www.flyredrover.com" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'RedRover']);" ><img alt="Red Rover banner" src="/images/redroverbanner.png" class="grow img-responsive"/></a>
-       </div>
-        <div class="col-md-6 nopadding">
-         <a href="http://facerift.ko-opmode.com" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'facerift']);"><img src="/images/facerift.png" alt="facerift" class="grow img-responsive"></a>
-       </div>
-      <div class="col-md-6 nopadding">
-       <a href="http://www.gnoggame.com" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'GNOG']);" ><img alt="gnog banner" src="/images/gnogbanner.png" class="grow img-responsive"/></a>
-       </div>
-       <div class="col-md-12 nopadding">
-         <a href="http://workshops.ko-opmode.com" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'workshops']);"><img src="/images/workshops.png" alt="workshops" class="grow img-responsive"></a>
-       </div>
+        
     </div>
   </div>
 </div>
 
 
+
 <!-- Footer -->
-<div class="container bottom hidden-xs">
-  <div class="row top-med-spacer ">
-          <div class="col-lg-6  top-small-spacer bottom-small-spacer" align="left">
-        <p class="bottom-small-spacer"><span class="h2 social">Get notified of game releases</span><span class="h3"> + early access to prototypes, music, and other goodies on our newsletter</span></p>
-         <form align="left" accept-charset="UTF-8" action="mailing_list/subscribe_general" class="mail-form" data-remote="true" id="general-mail-form" method="post">
-          <input class="textfield" id="email" name="email" placeholder="Email..." type="text"/>
-          <input class="subscribe" name="general_subscribe" type="submit" value="Subscribe" style="margin-bottom:9px" />
-          <div style="height:35px" id="general-response"></div>
-        </form>
+<div class="footer">
+  <div class="container ">
+    <div class="row top-med-spacer ">
+        <div class="col-lg-12  top-small-spacer bottom-small-spacer" align="center">
+          <p class="bottom-small-spacer"><span id="highlight" class="h3">Get notified of game releases</span> + early access to prototypes, music, and other goodies on our newsletter</p>
+           <form align="center" accept-charset="UTF-8" action="mailing_list/subscribe_general" class="mail-form" data-remote="true" id="general-mail-form" method="post">
+            <input class="textfield" id="email" name="email" placeholder="Email..." type="text"/>
+            <input class="btn-primary" name="general_subscribe" type="submit" value="Subscribe" style="margin-bottom:9px" />
+            <div style="height:35px" id="general-response"></div>
+          </form>
+        </div>
+        <div class="col-lg-12  top-small-spacer bottom-med-spacer" align="center">
+          <p><span class="h3" id="highlight">Follow us</span> for tons of screenshots and news</p><div class="col-xs-6 col-sm-offset-3">  
+          <a href="https://twitter.com/KOOPmode" class="twitter-follow-button" data-show-count="true" data-size="large" >Follow @KOOPmode</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+         <!-- <div class="fb-like fb-container bottom-xsmall-spacer" data-href="https://facebook.com/koopmode" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
+         -->
+        </div>
+        </div>
+
       </div>
-      <div class="col-lg-5 col-lg-offset-1 top-small-spacer bottom-small-spacer" align="left">
-        <p><span class="h2 social">Follow us</span><span class="h3"> for tons of screenshots and news</span></p>  
-       <div class="fb-like bottom-xsmall-spacer" data-href="https://facebook.com/koopmode" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
-       <a href="https://twitter.com/KOOPmode" class="twitter-follow-button" data-show-count="true" data-size="large" >Follow @KOOPmode</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-      </div>
-    </div>
-    
-    <div class="row bottom-xsmall-spacer">
-    <div class="col-xs-12 visible-lg" align="center">
-        <h4><a href="mailto:contact@ko-opmode.com">Email Us</a> • <a href="http://presskit.ko-opmode.com">Presskit</a></h4> 
-      </div>
-    <div class="col-xs-12 visible-md visible-sm" align="left">
-        <h4><a href="mailto:contact@ko-opmode.com">Email Us</a> • <a href="http://presskit.ko-opmode.com">Presskit</a></h4> 
-      </div>  
-    </div>
   </div>
-</div>
-<div class="container bottom visible-xs">
-  <div class="row top-med-spacer ">
-          <div class="col-lg-6  top-small-spacer bottom-small-spacer" align="left">
-        <p class="bottom-small-spacer"><span class="h2 social">Get notified of game releases</span><span class="h3"> + early access to prototypes, music, and other goodies on our newsletter</span></p>
-          <form align="left" accept-charset="UTF-8" action="mailing_list/subscribe_general" class="mail-form-phone" data-remote="true" id="mail-form-phone" method="post">
-          <div class="top-xsmall-spacer bottom-xsmall-spacer">
-          <input class="textfieldphone" id="email" name="email" placeholder="Email..." type="text"/>
-         </div>
-          <input class="subscribephone" name="general_subscribe" type="submit" value="Subscribe" style="margin-bottom:9px" />
-          <div style="height:10px" id="response-phone" style="font-size:12px;"></div>
-        </form>
-      </div>
-      <div class="col-lg-5 col-lg-offset-1 top-small-spacer bottom-small-spacer" align="left">
-        <p><span class="h2 social">Follow us</span><span class="h3"> for tons of screenshots and news</span></p>  
-       <div class="fb-like bottom-xsmall-spacer" width="200px" data-href="https://facebook.com/koopmode" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
-       <a href="https://twitter.com/KOOPmode" class="twitter-follow-button" data-show-count="true" data-size="large" >Follow @KOOPmode</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-      </div>
-       <div class="col-xs-12" align="left">
-        <h4><a href="mailto:contact@ko-opmode.com">Email Us</a> • <a href="http://presskit.ko-opmode.com">Presskit</a></h4> 
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Footer -->
+
+
+
 <div class="footer">
   <div class="container">
     <div class="row">
-         <div class="col-sm-12 top-med-spacer top-small-spacer" align="center">
-        <img src="/images/crew.png" class="img-responsive">
-      </div>
-      <div class="col-sm-12 top-med-spacer bottom-xsmall-spacer" align="center">
-      <p id="red" class="h3 bottom-small-spacer">KO-OP is supported by:</p>
+      <div class="col-sm-12 bottom-xsmall-spacer" align="left">
+      <p id="red" class="h4 bottom-small-spacer">KO-OP is supported by:</p>
 
-      <a href="http://tag.hexagram.ca"><img src="/images/tag.png" height="80px" class="right-small-spacer"></a>
-      <a href="http://hexagram.concordia.ca"><img src="/images/hexagram.png" height="80px" class="right-small-spacer"></a>
-      <a href="http://mlabgames.com"><img src="/images/mLab.png" height="50px" class="right-small-spacer"></a>
-      <a href="http://criticalhitmontreal.ca"><img src="/images/critical.png" height="80px"></a>
-        
-      </div>
-       <!--
-       <div class="col-sm-12 top-med-spacer bottom-xsmall-spacer visible-xs visible-sm visible-md" align="left">
-      <p id="grey" class="h2 bottom-small-spacer">KO-OP is supported by:</p>
+      <a href="http://tag.hexagram.ca"><img src="/images/tag.png" height="40px" class="right-small-spacer"></a>
+      <a href="http://hexagram.concordia.ca"><img src="/images/hexagram.png" height="40px" class="right-small-spacer"></a>
+      <a href="http://mlabgames.com"><img src="/images/mLab.png" height="30px" class="right-small-spacer"></a>
+      <a href="http://criticalhitmontreal.ca"><img src="/images/critical.png" height="40px"></a>
+   
+      <p class="top-small-spacer pull-right links"><a href="https://www.facebook.com/koopmode">Facebook</a>  <a href="https://twitter.com/koopmode">Twitter</a>  <a href="mailto:contact@ko-opmode.com">Email</a>  <a href="http://presskit.ko-opmode.com">Presskit</a></p>
 
-      <a href="http://tag.hexagram.ca"><img src="/images/tag.png" height="80px" class="right-small-spacer"></a>
-      <a href="http://hexagram.concordia.ca"><img src="/images/hexagram.png" height="80px" class="right-small-spacer"></a>
-      <a href="http://tag.hexagram.ca/events/october-10-5a7-symposium-introducing-the-mlab/"><img src="/images/mlab.png" height="50px" class="right-small-spacer"></a>
         
-      </div>
-      -->
+      </div> 
+
     </div>
-    
   </div>
-  
 </div>
 
 
     <!-- Javascripts
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-
+    <!-- Twitter -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <!-- Google Analytics -->
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-30393443-1', 'ko-opmode.com');
-  ga('send', 'pageview');
-
-</script>
+        ga('create', 'UA-30393443-1', 'ko-opmode.com');
+        ga('send', 'pageview');
+    </script>
+    
     <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/javascripts/bootstrap.min.js" type="text/javascript"></script>
     <script src="/javascripts/jquery_ujs.js" type="text/javascript"></script>
-    <script src="/javascripts/static_pages.js" type="text/javascript"></script>
+    <script src="/javascripts/jquery.vide.min.js"></script>
+    <!-- Fit Text -->
+    <script src="/bower_components/FitText.js/jquery.fittext.js"></script>
+    <script>jQuery("#header").fitText(1.2);</script>
+    <script>jQuery("#about").fitText(1.6);</script>
   </body>
 </html>

@@ -21,14 +21,47 @@ body {
 	background-color: #FFF;
 	font-family: "Bariol Light", Helvetica, sans-serif;
 	font-size: 200%;
-	color: #fff;
+	color: #FFF;
 	/* Prevent elements from flickering due to CSS Transforms */
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility:    hidden;
 	-ms-backface-visibility:     hidden;
+	-webkit-transform: translate3d(0, 0, 0);
 }
 
+a .on {
+	text-decoration: underline !important;
+}
 
+.gnog {
+	font-family: "Bariol Big";
+	font-size: 1em;
+}
+
+.navbar {
+	background-color: #b4b4b4;
+	border-radius: 0;
+}
+
+.navbar-custom {
+	font-family: "soleil";	
+	font-size: 1.2em;
+	background-color: #b4b4b4;
+	border-radius: 0;
+}
+
+ .navbar-custom a {
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+ .navbar-custom a:hover {
+ 	color: #fff!important;
+}
+
+.dropdown-menu {
+	background-color: #d3d1e0;
+}
 
 #black {
 	color: #000;
@@ -45,15 +78,31 @@ body {
 }
 
 .bottom {
+	font-family: "soleil",sans-serif;
 	color: #000;
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 1.25em;
-	background-color: #FFF;
+	background-color: #FFF;	
+}
+
+#testwrapper {
+
+height:100vh;
+}
+
+#test {
+vertical-align: middle;
+width:100%;
+ 
+    height: 50%;
+    position: absolute;
+    top: 0;
+    bottom:0%;
+    margin: auto;
 }
 
 .extra {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'soleil', sans-serif;
 	font-weight: 700;
 	font-size: 1.25em;
 	color: #e40068;
@@ -93,12 +142,35 @@ body {
 	font-size: 22px;
 }
 
+.top {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	font-size: 100%;
+	color: #832d1e;
+}
 
 .header {
-	background-image: url(/images/bgstars.png);
-	background-repeat: repeat;
-	font-size: 32px;
+	background-image: url(/video/test.png);
+	background-size: 80%;
+	background-position: 50%, 50%;
+	background-repeat: no-repeat;
+	font-size: 2.5em;
+	background-color: #b7b7b7;
+
+}
+
+.header a {
+	font-family: "Bariol Big";
 	color: #FFF;
+	text-decoration: underline;
+
+}
+
+.vcenter {
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
 }
 
 .games
@@ -115,25 +187,18 @@ body {
    overflow: hidden !important;
 }
 
-.header a {
-	color: #c2ff8f;
-}
-
-.header a:hover {
-	color: #FFF;
-}
 
 h1 {
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 600;
 	color: #38344d;
 }
 
 .h1 { 
-	font-family: "Bariol Big", sans-serif;
+
 	font-weight: 600;
-	font-size: 200%;
-	color: #caff9b;
+	font-size: 100%;
+	color: #832d1e;
 
 
  }
@@ -212,8 +277,9 @@ h1.mailingphone {
 	color: #FFF;
 }
 
-a {
-	color: #dd1327;
+a .gnog {
+	font-family: "Bariol Big";
+	color: #FFF;
 	text-decoration: underline;
 
 }
@@ -235,6 +301,15 @@ a.presskit {
 .video {
 	background-image: url(/images/bg.png);
 	color: #fff;
+}
+
+.section {
+	position: relative;
+}
+
+.rbottom {
+	position: absolute;
+	bottom: 1000px;
 }
 
 .summary {

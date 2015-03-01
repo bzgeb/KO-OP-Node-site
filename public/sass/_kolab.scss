@@ -1,0 +1,77 @@
+$lab-highlight-color: #CFCFCF;
+$emphasis-color: #61C6F6;
+
+
+.kolab {
+	
+	font-size: .75em;
+	color: $general-text-color;
+
+	a {
+		text-decoration: underline;
+	}
+
+	.subnav {
+		a {
+			margin-right: 40px;
+		}
+	}
+
+	.emphasis {
+		font-size: 1.5em;
+		color: $emphasis-color;
+	}
+
+	.h1 {
+		font-style: italic;
+		font-weight: 600;
+		// text-decoration: underline;
+		.footer{
+			color: $emphasis-color;
+			// text-decoration: underline;
+		}
+	}
+
+	em {
+		font-weight: 800;
+	}
+
+		// ::-webkit-input-placeholder { /* WebKit browsers */
+		//     color:    #FFF;
+		// }
+		// :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		//    color:    #FFF;
+		//    opacity:  1;
+		// }
+		// ::-moz-placeholder { /* Mozilla Firefox 19+ */
+		//    color:    #FFF;
+		//    opacity:  1;
+		// }
+		// :-ms-input-placeholder { /* Internet Explorer 10+ */
+		//    color:    #FFF;
+		// }
+
+	.btn-primary {
+		height: 36px;
+	}
+
+.textfield {
+	line-height: 1.8em;
+	// background-color: $emphasis-color;
+	// border-style: hidden;
+	// border-radius: 3px;
+	}
+
+
+
+}
+
+.lab-sectionbreak {
+	width: 100%;
+	padding-top: 2px;
+	background-color: $lab-highlight-color;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
