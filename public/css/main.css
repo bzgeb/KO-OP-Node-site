@@ -99,10 +99,11 @@ body {
 .footer {
   background-color: #FFF; }
   .footer a {
-    color: #EB4958; }
+    color: #EB4958;
+    font-size: .75em; }
 
 .links a {
-  padding-right: 25px; }
+  padding-right: 15px; }
 
 .sectionbreak {
   width: 100%;
@@ -386,12 +387,13 @@ body {
     line-height: 1.8em; }
 
 .gardenarium {
-  font-family: "edding-780";
+  font-family: "adelle-sans";
   color: #F500FF;
   background-color: #f2fdbe;
-  font-size: 1.2em; }
+  font-size: 1em; }
   .gardenarium .h1 {
-    font-size: 2em; }
+    font-size: 2em;
+    font-weight: 800; }
   .gardenarium a {
     color: #fff;
     text-decoration: underline; }
