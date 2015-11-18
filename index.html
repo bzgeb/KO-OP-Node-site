@@ -1,21 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KO-OP Mode - Experimental Game Collective</title>
-    <meta name="Description" content="KO-OP is a game collective making unique and experimental games. Check out Please Don't, Spacedog! GNOG, Fledge, and more.">
-    <meta property="og:title" content="KO-OP Mode" />
-    <meta property="og:site_name" content="KO-OP - Experimental Game Collective"/>
-    <meta property="og:image" content="http://www.ko-opmode.com/images/share.png" />
-    <meta property="og:description" content="KO-OP is a game collective making unique and experimental games. Check out Please Don't, Spacedog! GNOG, and more." />
-    <meta property="og:url" content="http://www.ko-opmode.com/">
-    <meta property="og:type" content="game">
-    <meta property="fb:admins" content="13616068" />
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@koopmode">
-    <meta name="twitter:creator" content="@koopmode">
-    <meta name="twitter:title" content="KO-OP Mode">
-    <meta name="twitter:description" content="KO-OP Mode is a Montreal based collective of game developers working both independently and together to create unique and experimental games.">
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KO_OP</title>
+        <meta name="Description" content="KO_OP is an artist run & owned game making studio. Check out our upcoming game GNOG, releasing for PS4, Steam & iOS.">
+        <meta property="og:title" content="KO_OP" />
+        <meta property="og:site_name" content="KO_OP - Artist Run Game Studio"/>
+        <meta property="og:image" content="http://www.ko-opmode.com/images/share.png" />
+        <meta property="og:description" content="KO_OP is an artist run & owned game making studio. Check out our upcoming game GNOG, releasing for PS4, Steam & iOS." />
+        <meta property="og:url" content="http://www.ko-opmode.com/">
+        <meta property="og:type" content="game">
+        <meta property="fb:admins" content="13616068" />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@koopmode">
+        <meta name="twitter:creator" content="@koopmode">
+    <meta name="twitter:title" content="KO_OP Mode">
+    <meta name="twitter:description" content="KO_OP is an artist run & owned game making studio. Check out our upcoming game GNOG, releasing for PS4, Steam & iOS.">
     <meta name="twitter:image:src" content="http://ko-opmode.com/images/share.png">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -48,7 +48,7 @@
 		  }(document, 'script', 'facebook-jssdk'));
 		  </script>
 
-<nav class="navbar navbar-custom" role="navigation">
+<nav class="navbar navbar-custom visible-xs" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -58,155 +58,219 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="/images/koop-updated-logo.png" class=" img-responsive" width="40"></a>
+      <!-- <a class="navbar-brand" href="/"><img src="/images/KO_OP-logo-colour.svg" class=" img-responsive" width="160"></a> -->
 
     </div>
-    <div class="top-xsmall-spacer"></div>
+    <!-- <div class="top-xsmall-spacer"></div> -->
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse bottom-small-spacer" id="navbar-collapse">
       
   
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/games">Games</a></li>
-        <li><a href="http://koopmodeblog.tumblr.com">Blog</a></li>
-        <!-- <li><a href="/store">Store</a></li> -->
-        <!-- <li><a href="/kolab">KOLAB</a></li> -->
-        <li><a href="/workshops">Workshops</a></li>
-        <!-- <li><a href="/podcast">Podcast</a></li> -->
-        <!-- <li><a href="">Fr</a></li> -->
+        <li id="green"><a  href="/games">GAMES</a></li>
+        <li id="red"><a target="_blank" href="https://medium.com/@KO_OP">BLOG</a></li>
+        <!-- <li id="yellow"><a href="/kolab">KOLAB</a></li> -->
+        <li id="pink"><a href="/workshops">WORKSHOPS</a></li>
+        <!-- <li  class="hvr-buzz" id="green"><a href="/poko_dome">POKO_Dome</a></li> -->
+        <li id="blue"><a href="/about">ABOUT</a></li>
+        <!-- <li><a href="/"  data-toggle="tooltip" data-placement="bottom" title="Français 
+">Fr</a></li>-->
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-<!--Video background -->
-<!-- <div style="width: 100%; height: 100vh;" 
-    data-vide-bg="/video/test.mp4" data-vide-options="posterType: png, loop: true, muted: false, position: 50% 50%"> -->
-<div class="header" align="center">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 top-large-spacer bottom-small-spacer" align="center">
-         <div onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'; document.getElementById('iframe').src = document.getElementById('iframe').src.replace('autoplay=0','autoplay=1'); ">
-           <img src="/images/ensemblevideo.png" class="img-responsive hidden-xs" style="cursor:pointer" />
-           <img src="/images/ensemblevideomobile.png" width="80%" class="img-responsive visisble-xs hidden-sm hidden-md hidden-lg" style="cursor:pointer" />
-           </div>
-            <div class="col-xs-12 embed-responsive embed-responsive-16by9 top-large-spacer bottom-large-spacer" id="thevideo" style="display:none">
 
-           <iframe class="top-xsmall-spacer bottom-small-spacer" id="iframe" src="//www.youtube.com/embed/FanFarM-4-o?autoplay=0&showinfo=0&controls=2&rel=0" frameborder="0" allowscriptaccess="always" allowfullscreen="true"></iframe>
-           </div>
-      </div>
-      <div class="col-xs-12 top-small-spacer bottom-med-spacer">
-        <p class="h1">Introducing: The Ensemble</p>
-        <p><a href="http://www.gnoggame.com">A new teaser for GNOG</a></p>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="description">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 top-large-spacer bottom-large-spacer" align="">
-        <p><span id="highlight">KO-OP</span> is a collective of game makers. We make strange and beautiful games.</p>
+      <div class="col-xs-12 top-large-spacer" align="center">
+        <img src="/images/KO_OP-logo-colour.svg" width="500px" class="img-responsive">
+         <p class="top-med-spacer"><span class="KO_OP">IS AN ARTIST RUN & OWNED STUDIO<br></span><span class="sub">MAKING STRANGE AND PLAYFUL GAMES</span></p>
       </div>
     </div>
   </div>
-</div>
 
 
-<!-- Explore -->
-<div class="explore">
-  <div class="container">
-    <div class="row top-small-spacer bottom-xsmall-spacer" align="center">
-      <div class="col-sm-3 col-sm-offset-3">
-        <a href="/games"><img src="/images/kooptag.png" class="img-rounded img-responsive" >
-        <p>EXPLORE our <span id="highlight">GAMES</span></p></a>
-      </div>
-      <!-- <div class="col-sm-3">
-        <a href="/kolab"><img src="/images/kolab2.png" class="img-responsive" >
-        <p>SUBMIT to <span id="highlight">KOLAB</span></p></a>
-      </div>
-      <div class="col-sm-3">
-        <a href="http://koopmodeblog.tumblr.com"><img src="/images/Book@2x.png" width="50px" class="img-rounded img-responsive" >
-        <p>READ our <span id="highlight">BLOG</span></p></a>
-      </div> -->
-      <!-- <div class="col-sm-3">
-        <img src="/images/symbol2.png" class="top-med-spacer bottom-xsmall-spacer img-rounded img-responsive" >
-        <p>ABOUT our <span id="highlight">COMPANY</span></p>
-      </div> -->
-       <div class="col-sm-3">
-        <a href="/workshops"><img src="/images/workshopicon.png" width="100px" class="img-responsive">
-        <p>LEARN from our <span id="highlight">WORKSHOPS</span></p></a>
-      </div>
-
-      <!-- Spacer class for second row -->
- <!--      <div class="col-xs-12 top-med-spacer hidden-xs"></div>
-
-      <div class="col-sm-3 col-sm-offset-3">
-        <a href="http://workshops.ko-opmode.com"><img src="/images/workshopicon.png" width="100px" class="img-responsive">
-        <p>LEARN from our <span id="highlight">WORKSHOPS</span></p></a>
-      </div>
-        <div class="col-sm-3">
-        <img src="/images/symbolbig.png" width="100px" class="img-responsive">
-        <p>SHOP at our <span id="highlight">STORE</span></p>
-        </div> -->
-        <div class="col-xs-12 top-med-spacer">
-          <div class="sectionbreak"></div>
-        </div>
-        
-    </div>
-  </div>
-</div>
-
-
-
-<!-- Footer -->
-<div class="footer">
-  <div class="container ">
-    <div class="row top-med-spacer ">
-        <div class="col-lg-12  top-small-spacer bottom-small-spacer" align="center">
-          <p class="bottom-small-spacer"><span id="highlight" class="h3">Get notified of game releases</span> + early access to prototypes, music, and other goodies on our newsletter</p>
-          <a  class="subscribe" href="http://eepurl.com/vqHVn">Subscribe!</a>
-
-          <!--
-                Broken signup, need to fix
-            <form align="center" accept-charset="UTF-8" action="mailing_list/subscribe_general" class="mail-form" data-remote="true" id="general-mail-form" method="post">
-            <input class="textfield" id="email" name="email" placeholder="Email..." type="text"/>
-            <input class="btn-primary" name="general_subscribe" type="submit" value="Subscribe" style="margin-bottom:9px" />
-            <div style="height:35px" id="general-response"></div>
-          </form> -->
-        </div>
-        <div class="col-lg-12  top-small-spacer bottom-med-spacer" align="center">
-          <p><span class="h3" id="highlight">Follow us</span> for tons of screenshots and news</p><div class="col-xs-6 col-sm-offset-3">  
-          <a href="https://twitter.com/KOOPmode" class="twitter-follow-button" data-show-count="true" data-size="large" >Follow @KOOPmode</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
-         <!-- <div class="fb-like fb-container bottom-xsmall-spacer" data-href="https://facebook.com/koopmode" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
-         -->
-        </div>
-        </div>
-
-      </div>
-  </div>
-
-
-
-<div class="footer">
+<div class="navigation">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 bottom-xsmall-spacer" align="left">
-      <p id="red" class="h4 bottom-small-spacer">KO-OP is supported by:</p>
+      <div class="col-xs-12 hidden-xs" align="center">
+        <a href="/games" class="btn btn-custom" id="green">GAMES</a><!-- <a href="/kolab" class="btn btn-custom" id="yellow" >KOLAB</a> --><a class="btn btn-custom" id="pink" href="/workshops">WORKSHOPS</a><a class="btn btn-custom" id="red" href="https://medium.com/@KO_OP">BLOG</a><a class="btn btn-custom" id="blue" href="/about">ABOUT</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<!-- <div class="description">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 top-large-spacer bottom-large-spacer" align="center">
+        <img src="/images/KO_OP-logo-colour.svg" width="500px" class="img-responsive">
+         <p class="top-med-spacer"><span class="KO_OP">IS AN ARTIST RUN & OWNED STUDIO<br></span><span class="sub">MAKING STRANGE AND BEAUTIFUL GAMES</span></p>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+<!-- lead orchids -->
+<!-- <div class="lead">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 top-large-spacer bottom-med-spacer" align="center">
+      <img src="/images/orchids/title.png" width="400px" class="img-responsive bottom-med-spacer">
+      </div>
+
+      <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CWqamSu3qFA?rel=0"></iframe>
+          </div>
+        </div>
+      
+      <div class="col-xs-12 bottom-large-spacer" align="center">
+        <p class="top-med-spacer"> <a href="/orchids">Play now</a></p>
+      </div>
+
+    </div>  
+  </div>
+</div>
+ -->
+
+<!-- GNOG Header -->
+<div class="header" align="center">
+  <div class="container">
+    <div class="row bottom-large-spacer">
+    
+    <div class="col-xs-12 top-large-spacer bottom-small-spacer" align="center">
+          <p class="h1">GNOG IS LAUNCHING IN 2016</p>
+      
+    </div>
+      
+      <div class=" hidden-xs col-sm-8 col-sm-offset-2  top-med-spacer bottom-small-spacer" align="center">
+         <div onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'; document.getElementById('iframe').src = document.getElementById('iframe').src.replace('autoplay=0','autoplay=1'); ">
+           <img src="/images/GNOG-E3-video3.png" width="853px" class="img-responsive hidden-xs" style="cursor:pointer" />
+           <img src="/images/GNOG-E3-video.png" width="80%" class="img-responsive visisble-xs hidden-sm hidden-md hidden-lg" style="cursor:pointer" />
+           </div>
+            <div class="col-xs-12 embed-responsive embed-responsive-16by9 top-large-spacer bottom-large-spacer" id="thevideo" style="display:none">
+
+           <iframe class="top-xsmall-spacer bottom-small-spacer" id="iframe" src="//www.youtube.com/embed/lzTWg0sGVh4?autoplay=0&showinfo=0&controls=2&rel=0" frameborder="0" allowscriptaccess="always" allowfullscreen="true"></iframe>
+           </div>
+      </div>
+      <div class="col-xs-12 visible-xs">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="//www.youtube.com/embed/lzTWg0sGVh4?autoplay=0&showinfo=0&rel=0"></iframe>
+        </div>
+      </div>
+      <div class="col-xs-12 top-med-spacer" align="center">
+          <a href="http://www.gnoggame.com">Visit the website</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- KO_OP  -->
+<!-- <div class="description">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 top-large-spacer bottom-large-spacer" align="center">
+        <p>Explore our award-winning <a id="logo-color3" href="/games">GAMES</a></p>
+        <p>We teach accessibile game-making through our <a id="logo-color2" href="workshops">WORKSHOPS</a> </p>
+        <p>Read our thoughts and stories on our <a id="logo-color1" href="https://medium.com/@KO_OP">BLOG</a></p>
+      </div>
+
+
+
+
+    </div>
+  </div>
+</div>
+ -->
+
+
+<!-- Follow -->
+<div class="follow2">
+<div class="container">
+
+<!-- mailing list -->
+
+  <div class="container ">
+    <div class="row">
+      <div class="top-large-spacer bottom-small-spacer hidden-xs"></div>
+      <!-- news -->
+   <!--    <div class="col-sm-5 ">
+        <p><span class="h1">LATEST NEWS</p>
+        <ul>
+        <li><span class="date">03/09/2015</span> ORCHID a new game by Pol with support from KO_OP . <a>PLAY NOW</a></li>
+        <li><span class="date">03/09/2015</span> NEW KO_OP logo and site launch. <A>Read about the design</A></li>
+        <li><span class="date">03/09/2015</span> GNOG is launching on Playstation 4, STEAM, & iOS next year. <a>Check it out</a></li>
+        </ul>
+      </div> -->
+        <div class="col-md-6 col-md-offset-1  " align="left">
+          <p class="top-med-spacer bottom-small-spacer"><span class="h1">JOIN OUR NEWSLETTER </span> <br>for infrequent updates on all of our projects </p> <form align="left" accept-charset="UTF-8" action="mailing_list/subscribe_general" class="mail-form" data-remote="true" id="general-mail-form" method="post">
+            <input class="textfield" id="email" name="email" placeholder="EMAIL..." type="text"/>
+            <div class="bottom-xsmall-spacer visible-xs"></div>
+            <input class="subscribe" name="general_subscribe" type="submit" value="SUBSCRIBE" style="margin-bottom:9px" />
+            <div style="height:35px" id="general-response"></div>
+          </form>
+          <div class="top-large-spacer bottom-xsmall-spacer"></div>
+           <p><span class="h1">FOLLOW US</span><br> and keep track of daily development</p>
+          <a href="https://twitter.com/KOOPmode" class="twitter-follow-button" data-show-count="true" data-size="large" >Follow @KOOPmode</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+          </div>
+         
+        <div class="col-md-4 col-md-offset-0 top-small-spacer">
+      <a class="twitter-grid" href="https://twitter.com/_/timelines/660210881893003264">A Collection on Twitter</a>
+<script async src="https://platform.twitter.com/widgets.js"></script>
+        </div>  
+         <!--  <div class="col-sm-6">
+            <form align="center" accept-charset="UTF-8" action="mailing_list/subscribe_general" class="mail-form" data-remote="true" id="general-mail-form" method="post">
+            <input class="textfield" id="email" name="email" placeholder="EMAIL..." type="text"/>
+            <input class="subscribe" name="general_subscribe" type="submit" value="SUBSCRIBE" style="margin-bottom:9px" />
+            <div style="height:35px" id="general-response"></div>
+          </form>
+          </div> -->
+          <!-- twitter -->
+<!--           <div class="col-sm-6 bottom-small-spacer top-large-spacer" align="center">
+          <p><span class="h1">FOLLOW US</span><br> and keep track of daily development</p><div class="col-sm-6 col-sm-offset-3 col-xs-12">  
+          <a href="https://twitter.com/KOOPmode" class="twitter-follow-button" data-show-count="true" data-size="large" >Follow @KOOPmode</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+        
+        </div> -->
+        
+    </div>
+    
+    <!-- <div class="col-xs-12 bottom-large-spacer">
+        <script async src="https://static.medium.com/embed.js"></script><a class="m-profile" data-width="100%" data-border="true" href="https://medium.com/@KO_OP">KO-OP</a>
+      </div> -->
+  </div>
+
+  </div>
+</div>
+</div>
+ 
+
+
+<div class="footer">
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 " align="right">
+      <!-- <p align="left" class="inline pull-left hidden-xs">Copyright 2015 all rights reserved</p> -->
+      <!-- <p id="red" class="h4 bottom-small-spacer">Parnters</p>
 
       <a href="http://tag.hexagram.ca"><img src="/images/tag.png" height="40px" class="right-small-spacer"></a>
       <a href="http://hexagram.concordia.ca"><img src="/images/hexagram.png" height="40px" class="right-small-spacer"></a>
       <a href="http://mlabgames.com"><img src="/images/mLab.png" height="30px" class="right-small-spacer"></a>
-      <a href="http://criticalhitmontreal.ca"><img src="/images/critical.png" height="40px"></a>
+      <a href="http://criticalhitmontreal.ca"><img src="/images/critical.png" height="40px"></a> -->
    
-      <p class="top-small-spacer pull-right links"><a href="https://www.facebook.com/koopmode">Facebook</a>  <a href="https://twitter.com/koopmode">Twitter</a>  <a href="mailto:contact@ko-opmode.com">Email</a>  <a href="http://presskit.ko-opmode.com">Presskit</a></p>
+     <button class=" btn btn-custom" id="green"><a href="https://www.facebook.com/koopmode">FACEBOOK</a></button><button class="hidden-xs btn btn-custom" id="red">  <a href="https://twitter.com/koopmode">TWITTER</a></button><button class=" btn btn-custom" id="pink">  <a href="mailto:contact@ko-opmode.com">EMAIL</a></button><button class="btn btn-custom" id="blue">  <a href="http://presskit.ko-opmode.com">PRESSKIT</a></button>
 
         
       </div> 
 
     </div>
-  </div>
+    </div>
 </div>
 
 
@@ -225,14 +289,32 @@
         ga('create', 'UA-30393443-1', 'ko-opmode.com');
         ga('send', 'pageview');
     </script>
-    
+    <!-- jquery -->
     <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap -->
     <script src="/javascripts/bootstrap.min.js" type="text/javascript"></script>
     <script src="/javascripts/jquery_ujs.js" type="text/javascript"></script>
-    <script src="/javascripts/jquery.vide.min.js"></script>
-    <!-- Fit Text -->
-    <script src="/bower_components/FitText.js/jquery.fittext.js"></script>
-    <script>jQuery("#header").fitText(1.2);</script>
-    <script>jQuery("#about").fitText(1.6);</script>
+    <!-- tooltips -->
+          <script>
+      $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip(); 
+      });
+          </script>
+    <!-- kerning -->
+    <script src="/bower_components/kerning.js/kerning.js"></script>
+
+
+    <!-- mailing list -->
+    <script src="/javascripts/jquery_ujs.js" type="text/javascript"></script>
+    <script src="/javascripts/static_pages.js" type="text/javascript"></script>
+    <!-- flowtype -->
+    <script src="/bower_components/Flowtype.js/flowtype.js"></script>
+    <script type="text/javascript">$('body').flowtype({
+             minimum   : 500,
+             maximum   : 1200,
+             minFont   : 16,
+             maxFont   : 20,
+             fontRatio : 40
+    });</script>    
   </body>
 </html>

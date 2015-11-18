@@ -1,0 +1,14 @@
+{
+  "name": "kerning.js",
+  "homepage": "https://github.com/endtwist/kerning.js",
+  "_release": "5c84f13b10",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5c84f13b10d61b1a210a10af4c330bdbbb874327"
+  },
+  "_source": "git://github.com/endtwist/kerning.js.git",
+  "_target": "*",
+  "_originalSource": "kerning.js",
+  "_direct": true
+}

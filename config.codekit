@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18493",
+"creatorBuild": "19076",
 "files": {
 	"\/about.html": {
 		"fileType": 8192,
@@ -98,16 +98,56 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/orchids.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/orchids.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/pokodome.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pokodome.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/public\/apple-touch-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8806,
+		"initialSize": 2599,
 		"inputAbbreviatedPath": "\/public\/apple-touch-icon.png",
 		"outputAbbreviatedPath": "\/public\/apple-touch-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/public\/bower_components\/FitText.js\/bower.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/FitText.js\/bower.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/public\/bower_components\/FitText.js\/bower-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/public\/bower_components\/FitText.js\/example.html": {
 		"fileType": 8192,
@@ -130,16 +170,79 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/public\/bower_components\/FitText.js\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/bower_components\/FitText.js\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/public\/bower_components\/FitText.js\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/public\/bower_components\/Flowtype.js\/bower.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/Flowtype.js\/bower.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/public\/bower_components\/Flowtype.js\/bower-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/public\/bower_components\/Flowtype.js\/flowtype.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/Flowtype.js\/flowtype.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/Flowtype.js\/min\/flowtype-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/Flowtype.js\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/Flowtype.js\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/public\/bower_components\/Flowtype.js\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/public\/bower_components\/jquery\/bower.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/jquery\/bower.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/public\/bower_components\/jquery\/bower-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/public\/bower_components\/jquery\/dist\/jquery.js": {
 		"fileType": 64,
@@ -1065,6 +1168,50 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/public\/bower_components\/kerning.js\/kerning.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/kerning.js\/kerning.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/kerning.js\/min\/kerning-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/kerning.js\/min\/kerning-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/kerning.js\/min\/kerning-min.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/kerning.js\/min\/min\/kerning-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/bower.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/bower.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/bower-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/composer.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/composer.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/composer-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/public\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1107,17 +1254,48 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/public\/bower_components\/magnific-popup\/magnific-popup.jquery.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/magnific-popup.jquery.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/magnific-popup.jquery-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/public\/bower_components\/magnific-popup\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/public\/bower_components\/magnific-popup\/src\/css\/_settings.scss": {
 		"createSourceMap": 1,
@@ -1263,23 +1441,67 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8806,
+		"initialSize": 1701,
 		"inputAbbreviatedPath": "\/public\/images\/apple-touch-icon.png",
 		"outputAbbreviatedPath": "\/public\/images\/apple-touch-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/Book@2x.png": {
+	"\/public\/images\/awards2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3084,
-		"inputAbbreviatedPath": "\/public\/images\/Book@2x.png",
-		"outputAbbreviatedPath": "\/public\/images\/Book@2x.png",
+		"initialSize": 10194,
+		"inputAbbreviatedPath": "\/public\/images\/awards2.png",
+		"outputAbbreviatedPath": "\/public\/images\/awards2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/public\/images\/biocube.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 187427,
+		"inputAbbreviatedPath": "\/public\/images\/biocube.png",
+		"outputAbbreviatedPath": "\/public\/images\/biocube.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/bronson.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8427,
+		"inputAbbreviatedPath": "\/public\/images\/bronson.png",
+		"outputAbbreviatedPath": "\/public\/images\/bronson.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/canceroftime2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 618925,
+		"inputAbbreviatedPath": "\/public\/images\/canceroftime2.png",
+		"outputAbbreviatedPath": "\/public\/images\/canceroftime2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/canceroftime3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12370,
+		"inputAbbreviatedPath": "\/public\/images\/canceroftime3.png",
+		"outputAbbreviatedPath": "\/public\/images\/canceroftime3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/public\/images\/crew.png": {
 		"fileType": 32768,
@@ -1290,95 +1512,73 @@
 		"outputAbbreviatedPath": "\/public\/images\/crew.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/critical.png": {
+	"\/public\/images\/dad.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 29618,
-		"inputAbbreviatedPath": "\/public\/images\/critical.png",
-		"outputAbbreviatedPath": "\/public\/images\/critical.png",
+		"initialSize": 79048,
+		"inputAbbreviatedPath": "\/public\/images\/dad.png",
+		"outputAbbreviatedPath": "\/public\/images\/dad.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/public\/images\/eggboss.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.46858e+06,
+		"initialSize": 223616,
 		"inputAbbreviatedPath": "\/public\/images\/eggboss.png",
 		"outputAbbreviatedPath": "\/public\/images\/eggboss.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/public\/images\/ensemble.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/public\/images\/ensemble.png",
-		"outputAbbreviatedPath": "\/public\/images\/ensemble.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/public\/images\/ensemblehead.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 38388,
-		"inputAbbreviatedPath": "\/public\/images\/ensemblehead.png",
-		"outputAbbreviatedPath": "\/public\/images\/ensemblehead.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/public\/images\/ensemblevideo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 267891,
-		"inputAbbreviatedPath": "\/public\/images\/ensemblevideo.png",
-		"outputAbbreviatedPath": "\/public\/images\/ensemblevideo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/public\/images\/ensemblevideomobile.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 263789,
-		"inputAbbreviatedPath": "\/public\/images\/ensemblevideomobile.png",
-		"outputAbbreviatedPath": "\/public\/images\/ensemblevideomobile.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/public\/images\/facerift.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 867654,
+		"initialSize": 219162,
 		"inputAbbreviatedPath": "\/public\/images\/facerift.png",
 		"outputAbbreviatedPath": "\/public\/images\/facerift.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/public\/images\/fb-banner3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53147,
+		"inputAbbreviatedPath": "\/public\/images\/fb-banner3.png",
+		"outputAbbreviatedPath": "\/public\/images\/fb-banner3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/fishjn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84959,
+		"inputAbbreviatedPath": "\/public\/images\/fishjn.png",
+		"outputAbbreviatedPath": "\/public\/images\/fishjn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/public\/images\/fledge.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 146491,
+		"initialSize": 62763,
 		"inputAbbreviatedPath": "\/public\/images\/fledge.png",
 		"outputAbbreviatedPath": "\/public\/images\/fledge.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/public\/images\/games\/gnog-banner.png": {
 		"fileType": 32768,
@@ -1406,12 +1606,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.04227e+06,
+		"initialSize": 263216,
 		"inputAbbreviatedPath": "\/public\/images\/gardenarium.png",
 		"outputAbbreviatedPath": "\/public\/images\/gardenarium.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/public\/images\/gardenarium\/boy.png": {
 		"fileType": 32768,
@@ -1468,214 +1668,533 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/public\/images\/gnog-example.png": {
+	"\/public\/images\/gardenarium2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 162933,
-		"inputAbbreviatedPath": "\/public\/images\/gnog-example.png",
-		"outputAbbreviatedPath": "\/public\/images\/gnog-example.png",
+		"initialSize": 91276,
+		"inputAbbreviatedPath": "\/public\/images\/gardenarium2.png",
+		"outputAbbreviatedPath": "\/public\/images\/gardenarium2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/gnog-no-mock.png": {
+	"\/public\/images\/gardenarium3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 144538,
-		"inputAbbreviatedPath": "\/public\/images\/gnog-no-mock.png",
-		"outputAbbreviatedPath": "\/public\/images\/gnog-no-mock.png",
+		"initialSize": 71051,
+		"inputAbbreviatedPath": "\/public\/images\/gardenarium3.png",
+		"outputAbbreviatedPath": "\/public\/images\/gardenarium3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/gnog.png": {
+	"\/public\/images\/GNOG-E3-video.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 211874,
-		"inputAbbreviatedPath": "\/public\/images\/gnog.png",
-		"outputAbbreviatedPath": "\/public\/images\/gnog.png",
+		"initialSize": 19816,
+		"inputAbbreviatedPath": "\/public\/images\/GNOG-E3-video.png",
+		"outputAbbreviatedPath": "\/public\/images\/GNOG-E3-video.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/gnogbanner.png": {
+	"\/public\/images\/GNOG-E3-video2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 105931,
-		"inputAbbreviatedPath": "\/public\/images\/gnogbanner.png",
-		"outputAbbreviatedPath": "\/public\/images\/gnogbanner.png",
+		"initialSize": 29880,
+		"inputAbbreviatedPath": "\/public\/images\/GNOG-E3-video2.png",
+		"outputAbbreviatedPath": "\/public\/images\/GNOG-E3-video2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/hexagram.png": {
+	"\/public\/images\/GNOG-E3-video3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 9688,
-		"inputAbbreviatedPath": "\/public\/images\/hexagram.png",
-		"outputAbbreviatedPath": "\/public\/images\/hexagram.png",
+		"initialSize": 29926,
+		"inputAbbreviatedPath": "\/public\/images\/GNOG-E3-video3.png",
+		"outputAbbreviatedPath": "\/public\/images\/GNOG-E3-video3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/kolab-logo.png": {
+	"\/public\/images\/GNOG-E3-video4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 85882,
-		"inputAbbreviatedPath": "\/public\/images\/kolab-logo.png",
-		"outputAbbreviatedPath": "\/public\/images\/kolab-logo.png",
+		"initialSize": 22083,
+		"inputAbbreviatedPath": "\/public\/images\/GNOG-E3-video4.png",
+		"outputAbbreviatedPath": "\/public\/images\/GNOG-E3-video4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/KOLAB.png": {
+	"\/public\/images\/gp.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10667,
-		"inputAbbreviatedPath": "\/public\/images\/KOLAB.png",
-		"outputAbbreviatedPath": "\/public\/images\/KOLAB.png",
+		"initialSize": 6793,
+		"inputAbbreviatedPath": "\/public\/images\/gp.png",
+		"outputAbbreviatedPath": "\/public\/images\/gp.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/kolab2.png": {
+	"\/public\/images\/gp2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 45730,
-		"inputAbbreviatedPath": "\/public\/images\/kolab2.png",
-		"outputAbbreviatedPath": "\/public\/images\/kolab2.png",
+		"initialSize": 21134,
+		"inputAbbreviatedPath": "\/public\/images\/gp2.png",
+		"outputAbbreviatedPath": "\/public\/images\/gp2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/koop-updated-logo.png": {
+	"\/public\/images\/ko_oppattern.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 116778,
-		"inputAbbreviatedPath": "\/public\/images\/koop-updated-logo.png",
-		"outputAbbreviatedPath": "\/public\/images\/koop-updated-logo.png",
+		"initialSize": 40973,
+		"inputAbbreviatedPath": "\/public\/images\/ko_oppattern.png",
+		"outputAbbreviatedPath": "\/public\/images\/ko_oppattern.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/kooptag.png": {
+	"\/public\/images\/log-mobile.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 142558,
-		"inputAbbreviatedPath": "\/public\/images\/kooptag.png",
-		"outputAbbreviatedPath": "\/public\/images\/kooptag.png",
+		"initialSize": 128521,
+		"inputAbbreviatedPath": "\/public\/images\/log-mobile.png",
+		"outputAbbreviatedPath": "\/public\/images\/log-mobile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/meetgnogvid.png": {
+	"\/public\/images\/log.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 319608,
-		"inputAbbreviatedPath": "\/public\/images\/meetgnogvid.png",
-		"outputAbbreviatedPath": "\/public\/images\/meetgnogvid.png",
+		"initialSize": 254272,
+		"inputAbbreviatedPath": "\/public\/images\/log.png",
+		"outputAbbreviatedPath": "\/public\/images\/log.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/mLab.png": {
+	"\/public\/images\/log2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4490,
-		"inputAbbreviatedPath": "\/public\/images\/mLab.png",
-		"outputAbbreviatedPath": "\/public\/images\/mLab.png",
+		"initialSize": 247655,
+		"inputAbbreviatedPath": "\/public\/images\/log2.png",
+		"outputAbbreviatedPath": "\/public\/images\/log2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/mtgbackground.png": {
+	"\/public\/images\/mos.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 96447,
-		"inputAbbreviatedPath": "\/public\/images\/mtgbackground.png",
-		"outputAbbreviatedPath": "\/public\/images\/mtgbackground.png",
+		"initialSize": 27365,
+		"inputAbbreviatedPath": "\/public\/images\/mos.png",
+		"outputAbbreviatedPath": "\/public\/images\/mos.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/public\/images\/newsletterSection.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42021,
+		"inputAbbreviatedPath": "\/public\/images\/newsletterSection.png",
+		"outputAbbreviatedPath": "\/public\/images\/newsletterSection.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/nick.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7440,
+		"inputAbbreviatedPath": "\/public\/images\/nick.png",
+		"outputAbbreviatedPath": "\/public\/images\/nick.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/orchids\/orchids-bg1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 602619,
+		"inputAbbreviatedPath": "\/public\/images\/orchids\/orchids-bg1.png",
+		"outputAbbreviatedPath": "\/public\/images\/orchids\/orchids-bg1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/orchids\/orchids-bg2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 354364,
+		"inputAbbreviatedPath": "\/public\/images\/orchids\/orchids-bg2.png",
+		"outputAbbreviatedPath": "\/public\/images\/orchids\/orchids-bg2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/orchids\/orchids-bg3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 598097,
+		"inputAbbreviatedPath": "\/public\/images\/orchids\/orchids-bg3.png",
+		"outputAbbreviatedPath": "\/public\/images\/orchids\/orchids-bg3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/orchids\/orchids-bg4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 548748,
+		"inputAbbreviatedPath": "\/public\/images\/orchids\/orchids-bg4.png",
+		"outputAbbreviatedPath": "\/public\/images\/orchids\/orchids-bg4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/orchids\/title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28802,
+		"inputAbbreviatedPath": "\/public\/images\/orchids\/title.png",
+		"outputAbbreviatedPath": "\/public\/images\/orchids\/title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/orchidstodusk.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52368,
+		"inputAbbreviatedPath": "\/public\/images\/orchidstodusk.png",
+		"outputAbbreviatedPath": "\/public\/images\/orchidstodusk.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/orchidstodusk3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53622,
+		"inputAbbreviatedPath": "\/public\/images\/orchidstodusk3.png",
+		"outputAbbreviatedPath": "\/public\/images\/orchidstodusk3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/orchidstodusk4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50639,
+		"inputAbbreviatedPath": "\/public\/images\/orchidstodusk4.png",
+		"outputAbbreviatedPath": "\/public\/images\/orchidstodusk4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/orchidstodusk5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43563,
+		"inputAbbreviatedPath": "\/public\/images\/orchidstodusk5.png",
+		"outputAbbreviatedPath": "\/public\/images\/orchidstodusk5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/orchidstodusk6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61540,
+		"inputAbbreviatedPath": "\/public\/images\/orchidstodusk6.png",
+		"outputAbbreviatedPath": "\/public\/images\/orchidstodusk6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/paloma.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8268,
+		"inputAbbreviatedPath": "\/public\/images\/paloma.png",
+		"outputAbbreviatedPath": "\/public\/images\/paloma.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/pokodome-header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 428616,
+		"inputAbbreviatedPath": "\/public\/images\/pokodome-header.png",
+		"outputAbbreviatedPath": "\/public\/images\/pokodome-header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/pokodome-header2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 467832,
+		"inputAbbreviatedPath": "\/public\/images\/pokodome-header2.png",
+		"outputAbbreviatedPath": "\/public\/images\/pokodome-header2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/pol.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8107,
+		"inputAbbreviatedPath": "\/public\/images\/pol.png",
+		"outputAbbreviatedPath": "\/public\/images\/pol.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/ramsey.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9010,
+		"inputAbbreviatedPath": "\/public\/images\/ramsey.png",
+		"outputAbbreviatedPath": "\/public\/images\/ramsey.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/public\/images\/ranpal.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 89505,
+		"initialSize": 37545,
 		"inputAbbreviatedPath": "\/public\/images\/ranpal.png",
 		"outputAbbreviatedPath": "\/public\/images\/ranpal.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/public\/images\/ranpal2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35119,
+		"inputAbbreviatedPath": "\/public\/images\/ranpal2.png",
+		"outputAbbreviatedPath": "\/public\/images\/ranpal2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/public\/images\/redroverbanner.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 997357,
+		"initialSize": 384528,
 		"inputAbbreviatedPath": "\/public\/images\/redroverbanner.png",
 		"outputAbbreviatedPath": "\/public\/images\/redroverbanner.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/public\/images\/rigbmx1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91707,
+		"inputAbbreviatedPath": "\/public\/images\/rigbmx1.png",
+		"outputAbbreviatedPath": "\/public\/images\/rigbmx1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/rigbmx2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72775,
+		"inputAbbreviatedPath": "\/public\/images\/rigbmx2.png",
+		"outputAbbreviatedPath": "\/public\/images\/rigbmx2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/saleem.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8219,
+		"inputAbbreviatedPath": "\/public\/images\/saleem.png",
+		"outputAbbreviatedPath": "\/public\/images\/saleem.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/sam.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7715,
+		"inputAbbreviatedPath": "\/public\/images\/sam.png",
+		"outputAbbreviatedPath": "\/public\/images\/sam.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/secondSection-blur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 195164,
+		"inputAbbreviatedPath": "\/public\/images\/secondSection-blur.png",
+		"outputAbbreviatedPath": "\/public\/images\/secondSection-blur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/secondSection-blur2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 481618,
+		"inputAbbreviatedPath": "\/public\/images\/secondSection-blur2.png",
+		"outputAbbreviatedPath": "\/public\/images\/secondSection-blur2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/secondSection.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 192003,
+		"inputAbbreviatedPath": "\/public\/images\/secondSection.png",
+		"outputAbbreviatedPath": "\/public\/images\/secondSection.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/public\/images\/share.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 56540,
+		"initialSize": 12928,
 		"inputAbbreviatedPath": "\/public\/images\/share.png",
 		"outputAbbreviatedPath": "\/public\/images\/share.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/share2.png": {
+	"\/public\/images\/skippingstones.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 310061,
-		"inputAbbreviatedPath": "\/public\/images\/share2.png",
-		"outputAbbreviatedPath": "\/public\/images\/share2.png",
+		"initialSize": 243600,
+		"inputAbbreviatedPath": "\/public\/images\/skippingstones.png",
+		"outputAbbreviatedPath": "\/public\/images\/skippingstones.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/skippingstonesbanner.png": {
+	"\/public\/images\/skippingstones3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 327979,
-		"inputAbbreviatedPath": "\/public\/images\/skippingstonesbanner.png",
-		"outputAbbreviatedPath": "\/public\/images\/skippingstonesbanner.png",
+		"initialSize": 76920,
+		"inputAbbreviatedPath": "\/public\/images\/skippingstones3.png",
+		"outputAbbreviatedPath": "\/public\/images\/skippingstones3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/store\/poster1.jpg": {
-		"fileType": 16384,
+	"\/public\/images\/social-bg-dark.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.28457e+06,
-		"inputAbbreviatedPath": "\/public\/images\/store\/poster1.jpg",
-		"outputAbbreviatedPath": "\/public\/images\/store\/poster1.jpg",
+		"initialSize": 57059,
+		"inputAbbreviatedPath": "\/public\/images\/social-bg-dark.png",
+		"outputAbbreviatedPath": "\/public\/images\/social-bg-dark.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/public\/images\/social-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69417,
+		"inputAbbreviatedPath": "\/public\/images\/social-bg.png",
+		"outputAbbreviatedPath": "\/public\/images\/social-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/spacedog.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122156,
+		"inputAbbreviatedPath": "\/public\/images\/spacedog.png",
+		"outputAbbreviatedPath": "\/public\/images\/spacedog.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/spacedog2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 168005,
+		"inputAbbreviatedPath": "\/public\/images\/spacedog2.png",
+		"outputAbbreviatedPath": "\/public\/images\/spacedog2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/spacedog3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94942,
+		"inputAbbreviatedPath": "\/public\/images\/spacedog3.png",
+		"outputAbbreviatedPath": "\/public\/images\/spacedog3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/public\/images\/store\/wallpaper2FacesRed.png": {
 		"fileType": 32768,
@@ -1699,137 +2218,115 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/public\/images\/symbol.png": {
+	"\/public\/images\/tamperdrome.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 9955,
-		"inputAbbreviatedPath": "\/public\/images\/symbol.png",
-		"outputAbbreviatedPath": "\/public\/images\/symbol.png",
+		"initialSize": 104186,
+		"inputAbbreviatedPath": "\/public\/images\/tamperdrome.png",
+		"outputAbbreviatedPath": "\/public\/images\/tamperdrome.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/symbol2.png": {
+	"\/public\/images\/tamperdrome2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7421,
-		"inputAbbreviatedPath": "\/public\/images\/symbol2.png",
-		"outputAbbreviatedPath": "\/public\/images\/symbol2.png",
+		"initialSize": 209131,
+		"inputAbbreviatedPath": "\/public\/images\/tamperdrome2.png",
+		"outputAbbreviatedPath": "\/public\/images\/tamperdrome2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/symbolbig.png": {
+	"\/public\/images\/tamperdrome3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/public\/images\/symbolbig.png",
-		"outputAbbreviatedPath": "\/public\/images\/symbolbig.png",
+		"initialSize": 208856,
+		"inputAbbreviatedPath": "\/public\/images\/tamperdrome3.png",
+		"outputAbbreviatedPath": "\/public\/images\/tamperdrome3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/tag.png": {
+	"\/public\/images\/tamperdrome4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 18138,
-		"inputAbbreviatedPath": "\/public\/images\/tag.png",
-		"outputAbbreviatedPath": "\/public\/images\/tag.png",
+		"initialSize": 108013,
+		"inputAbbreviatedPath": "\/public\/images\/tamperdrome4.png",
+		"outputAbbreviatedPath": "\/public\/images\/tamperdrome4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/public\/images\/taglogo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3467,
-		"inputAbbreviatedPath": "\/public\/images\/taglogo.png",
-		"outputAbbreviatedPath": "\/public\/images\/taglogo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/public\/images\/taglogo@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6495,
-		"inputAbbreviatedPath": "\/public\/images\/taglogo@2x.png",
-		"outputAbbreviatedPath": "\/public\/images\/taglogo@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/public\/images\/twitterbg.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 49107,
+		"initialSize": 23332,
 		"inputAbbreviatedPath": "\/public\/images\/twitterbg.png",
 		"outputAbbreviatedPath": "\/public\/images\/twitterbg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/videoImage.png": {
+	"\/public\/images\/weirdforest2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 369615,
-		"inputAbbreviatedPath": "\/public\/images\/videoImage.png",
-		"outputAbbreviatedPath": "\/public\/images\/videoImage.png",
+		"initialSize": 125341,
+		"inputAbbreviatedPath": "\/public\/images\/weirdforest2.png",
+		"outputAbbreviatedPath": "\/public\/images\/weirdforest2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/workshopicon.png": {
+	"\/public\/images\/workshop-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/public\/images\/workshopicon.png",
-		"outputAbbreviatedPath": "\/public\/images\/workshopicon.png",
+		"initialSize": 47406,
+		"inputAbbreviatedPath": "\/public\/images\/workshop-bg.png",
+		"outputAbbreviatedPath": "\/public\/images\/workshop-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/public\/images\/workshops-photo.png": {
+	"\/public\/images\/workshops-photo3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.55507e+06,
-		"inputAbbreviatedPath": "\/public\/images\/workshops-photo.png",
-		"outputAbbreviatedPath": "\/public\/images\/workshops-photo.png",
+		"initialSize": 247071,
+		"inputAbbreviatedPath": "\/public\/images\/workshops-photo3.png",
+		"outputAbbreviatedPath": "\/public\/images\/workshops-photo3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/public\/images\/workshops-photobig.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 261954,
+		"inputAbbreviatedPath": "\/public\/images\/workshops-photobig.png",
+		"outputAbbreviatedPath": "\/public\/images\/workshops-photobig.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/public\/images\/workshops.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 218716,
+		"initialSize": 124497,
 		"inputAbbreviatedPath": "\/public\/images\/workshops.png",
 		"outputAbbreviatedPath": "\/public\/images\/workshops.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/public\/images\/workshops2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.55507e+06,
-		"inputAbbreviatedPath": "\/public\/images\/workshops2.png",
-		"outputAbbreviatedPath": "\/public\/images\/workshops2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/public\/javascripts\/bootstrap.js": {
 		"fileType": 64,
@@ -1918,6 +2415,22 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/public\/sass\/_about.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/sass\/_about.scss",
+		"outputAbbreviatedPath": "\/public\/css\/_about.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/public\/sass\/_common.scss": {
 		"createSourceMap": 1,
@@ -2079,6 +2592,54 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/public\/sass\/_orchids.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/sass\/_orchids.scss",
+		"outputAbbreviatedPath": "\/public\/css\/_orchids.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/public\/sass\/_pokodome.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/sass\/_pokodome.scss",
+		"outputAbbreviatedPath": "\/public\/css\/_pokodome.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/public\/sass\/_sticky-footer.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/sass\/_sticky-footer.scss",
+		"outputAbbreviatedPath": "\/public\/css\/_sticky-footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/public\/sass\/_typography.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -2229,16 +2790,25 @@
 		"processed": 1
 		},
 	"\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/store.html": {
 		"fileType": 8192,
@@ -2532,6 +3102,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"globalstrict": {
 			"active": 0,
 			"flagValue": -1
@@ -2618,6 +3192,10 @@
 			},
 		"noarg": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"node": {
@@ -2720,6 +3298,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"withstmt": {
 			"active": 0,
 			"flagValue": -1
@@ -2738,10 +3320,6 @@
 			}
 		},
 	"jsLintFlags2": {
-		"ass": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -2750,15 +3328,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"closure": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"continue": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"debug": {
+		"couch": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2766,75 +3336,27 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"eqeq": {
+		"es6": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"evil": {
+		"eval": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"forin": {
+		"for": {
 			"active": 0,
 			"flagValue": -1
-			},
-		"indent": {
-			"active": 0,
-			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
-		"newcap": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"nomen": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"plusplus": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"properties": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"regexp": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"rhino": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sloppy": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"stupid": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sub": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"todo": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"unparam": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"vars": {
+		"this": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2843,6 +3365,14 @@
 			"flagValue": -1
 			}
 		},
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
 	"kitAutoOutputPathEnabled": 1,
 	"kitAutoOutputPathFilenamePattern": "*.html",
 	"kitAutoOutputPathRelativePath": "",
@@ -2870,9 +3400,18 @@
 	"markdownAutoOutputPathReplace1": "",
 	"markdownAutoOutputPathReplace2": "",
 	"markdownAutoOutputPathStyle": 0,
-	"markdownEnableFootnotes": 0,
-	"markdownEnableSmartyPants": 1,
-	"markdownExpandTabs": 1,
+	"markdownCriticStyle": 0,
+	"markdownEnableFootnotes": 1,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
 	"reloadFileURLs": 0,
 	"sassAutoOutputPathEnabled": 1,
 	"sassAutoOutputPathFilenamePattern": "*.css",
@@ -2880,7 +3419,7 @@
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
 	"sassAutoOutputPathStyle": 2,
-	"sassCreateSourceMap": 1,
+	"sassCreateSourceMap": 0,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 0,
@@ -2918,7 +3457,9 @@
 	"typescriptAutoOutputPathStyle": 2,
 	"typescriptCreateDeclarationFile": 0,
 	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,
@@ -2928,6 +3469,10 @@
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3008,6 +3553,10 @@
 			"flagValue": -1
 			},
 		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
 			"active": 0,
 			"flagValue": -1
 			},

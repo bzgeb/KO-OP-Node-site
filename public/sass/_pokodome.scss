@@ -1,0 +1,22 @@
+.pokoheader {
+	background-image: url('/images/pokodome-header.png');
+	background-size: cover;
+	background-position: center;
+	color: #3AAA31;
+	font-family: $headline-font;
+	font-weight: 900;
+
+
+	.h1 {
+		font-size: 4em;
+		font-weight: 800;
+		color: $highlight-color-green;
+	}
+}
+
+.pokodome {
+	background-color: #fafafa;
+	.h1 {
+		font-family: $headline-font;
+	}
+}
