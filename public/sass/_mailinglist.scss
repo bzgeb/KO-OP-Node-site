@@ -4,41 +4,41 @@
 
 .subscribe {
 	
-	background-color:#EB4958;
-	-webkit-border-top-left-radius:5px;
-	-moz-border-radius-topleft:5px;
-	border-top-left-radius:5px;
-	-webkit-border-top-right-radius:5px;
-	-moz-border-radius-topright:5px;
-	border-top-right-radius:5px;
-	-webkit-border-bottom-right-radius:5px;
-	-moz-border-radius-bottomright:5px;
-	border-bottom-right-radius:5px;
-	-webkit-border-bottom-left-radius:5px;
-	-moz-border-radius-bottomleft:5px;
-	border-bottom-left-radius:5px;
+	background-color:$logo-color-pink;
 	text-indent:0;
 	border:0px solid #dcdcdc;
 	display:inline-block;
-	color:#FFF !important;
+	color:#f4d552 !important;
 	font-family:"Soleil";
 	font-size:1em;
 	font-weight:normal;
 	font-style:normal;
-	height:40px;
-	line-height:40px;
-	width:165px;
+	height:37px;
+	letter-spacing: 1px;
+	width:185px;
 	text-decoration:none;
 	text-align:center;
+	margin-left: 0px;
 
 }
 .subscribe:hover {
 
-	background-color:#B92336;
+	background-color:#d74939;
 	text-decoration: none;
 }.subscribe:active {
 	position:relative;
 	top:1px;
+}
+
+input[type="text"], textarea {
+
+  background-color : #FFF; 
+  width: 185px;
+  border: 0px;
+  height: 37px;
+  color:  #949494;
+  padding-left: 5px;
+
 }
 
 .subscribephone {
@@ -83,14 +83,22 @@
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #ABAFB4;
+    color:    #949494;
+    letter-spacing: 2px;
+    padding-left: 10px;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #ABAFB4;
+    color:     #949494;
+    letter-spacing: 2px;
+    padding-left: 10px;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #ABAFB4;
+    color:     #949494;
+    letter-spacing: 2px;
+    padding-left: 10px;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #ABAFB4;
+    color:     #949494;
+    letter-spacing: 2px;
+    padding-left: 10px;
 }

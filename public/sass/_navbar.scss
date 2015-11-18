@@ -1,6 +1,8 @@
-$bg-color-home: #FFF;
+$bg-color-home: #fafafa;
+$link-color: #fafafa;
+$link-alt-color: #FFF;
 $bg-color-store: #FFF;
-$link-color: #8C8589;
+$link-hover-color: #212121;
 
 
 /*Navbar styling*/
@@ -8,32 +10,46 @@ $link-color: #8C8589;
 .navbar {
 	background-color: $bg-color-home;
 	border-radius: 0;
+	margin-bottom: 0px;
+	margin-top: 0px;
+
+
+
 }
 
 .navbar-custom {
-	font-family: "soleil";	
-	font-size: 1em;
-	font-weight: 500;
+	font-family: "ff-mark-web";	
+	font-size: .8em;
+	font-weight: 800;
 	border-radius: 0;
+
+	.navbar-right {
+		margin-right: -30px!important;
+	}
 
 	a {
 		text-decoration: none;
 		margin-right: 5px;
 		// Remove this for collapsed navbar
-		margin-bottom: 10px; 
-		color: #2B2B2B !important;
+		color: $link-color !important;
+
+		#alt {
+			color: $link-alt-color!important;
+		}
+
 	}
 	a:hover {
- 	color: $link-color !important;
+ 	color: $link-hover-color !important;
 
 	}
 
+	.twitter-follow-button {
+		margin-top: 15px;
+	}
+
+
 }
 
-#active {
-	color: #fff !important;
-	/*text-decoration: underline;*/
-}
 
 @media (max-width: 979px) {
   .navbar-fixed-top.navbar-absolute {
@@ -44,4 +60,60 @@ $link-color: #8C8589;
 
 .navbar-absolute + div {
     margin-top: 68px;
+}
+
+.navbar-brand {
+	img {
+		margin-top: -5px;
+		margin-left: 5px;
+	}
+}
+
+
+#yellow {
+	background-color: #f5d544;
+}
+
+#yellow:hover {
+	background-color: #ddc03a;
+}
+
+#red {
+	background-color: #ff5d30;
+}
+
+#red:hover {
+	background-color: #DE4F27;
+}
+
+#pink {
+	background-color: #fb27a3;
+}
+
+#pink:hover {
+	background-color: #C91D83;
+}
+
+#green {
+	background-color: #56DC51;
+}
+
+#green:hover {
+	background-color: #40A33C;
+}
+
+#blue {
+	background-color: #552bf8;
+}
+
+#blue:hover {
+	background-color: #4621D1;
+}
+
+#black {
+	background-color: #000000;
+}
+
+#black:hover {
+	background-color: #505050;
 }

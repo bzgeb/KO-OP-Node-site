@@ -1,0 +1,54 @@
+.about-wrapper {
+	color: #FFF;
+	a {
+		color: #FFF;
+		text-decoration: underline;
+	}
+
+	.h1 {
+		font-family: $headline-font;
+		letter-spacing: 2px;
+	}
+}
+
+
+.profiles {
+	font-size: .8em;
+	img {
+		padding-bottom: 10px;
+	}
+	div {
+		padding-bottom: 10px;
+	}
+}
+
+.workforhire {
+	font-size: .8em;
+	img {
+		padding-bottom: 10px;
+	}
+	div {
+		padding-bottom: 10px;
+	}
+}
+
+
+.yellow {
+	color: $highlight-color-yellow;
+}
+
+.orange {
+	color: $highlight-color-orange;
+}
+
+.pink {
+	color: $highlight-color-pink;
+}
+
+.green {
+	color: $highlight-color-green;
+}
+
+.blue {
+	color: $highlight-color-blue;
+}
