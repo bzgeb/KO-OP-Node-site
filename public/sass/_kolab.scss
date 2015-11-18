@@ -3,11 +3,13 @@ $emphasis-color: #61C6F6;
 
 
 .kolab {
-	
-	font-size: .75em;
-	color: $general-text-color;
+	font-family: $body-font;
+	// font-size: .75em;
+	color: #FFF;
 
 	a {
+		color: #FFF;
+		font-weight: 800;
 		text-decoration: underline;
 	}
 
@@ -19,18 +21,33 @@ $emphasis-color: #61C6F6;
 
 	.emphasis {
 		font-size: 1.5em;
-		color: $emphasis-color;
+		font-family: $headline-font;
+		color: $logo-color-yellow;
 	}
 
 	.h1 {
-		font-style: italic;
+		font-family: $headline-font;
 		font-weight: 600;
 		// text-decoration: underline;
+		#kolab-header {
+			font-size: 5em;
+		}
 		.footer{
 			color: $emphasis-color;
 			// text-decoration: underline;
 		}
 	}
+
+	#subheader {
+		font-family: $headline-font;
+		color: #fff;
+	}
+
+	#kolab-header {
+			font-size: 4em;
+			letter-spacing: 5px;
+			color: $logo-color-yellow;
+		}
 
 	em {
 		font-weight: 800;

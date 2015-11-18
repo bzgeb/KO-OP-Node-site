@@ -46,6 +46,14 @@ app.get('/', function (req, res) {
   res.render('index.html', { layout: false });
 });
 
+app.get('/about', function (req, res) {
+  res.render('about.html', { layout: false });
+});
+
+app.get('/pokodome', function (req, res) {
+  res.render('pokodome.html', { layout: false });
+});
+
 app.get('/store', function (req, res) {
   res.render('store.html', { layout: false });
 });
@@ -64,6 +72,10 @@ app.get('/workshops', function (req, res) {
 
 app.get('/gardenarium', function (req, res) {
   res.render('gardenarium.html', { layout: false });
+});
+
+app.get('/orchids', function (req, res) {
+  res.render('orchids.html', { layout: false });
 });
 
 app.post('/mailing_list/subscribe', function (req, res) {
