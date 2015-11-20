@@ -2262,17 +2262,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/images\/twitterbg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 23332,
-		"inputAbbreviatedPath": "\/public\/images\/twitterbg.png",
-		"outputAbbreviatedPath": "\/public\/images\/twitterbg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/public\/images\/weirdforest2.png": {
 		"fileType": 32768,
 		"ignore": 0,
