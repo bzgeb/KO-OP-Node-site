@@ -3,18 +3,31 @@
 .orchids-container {
 	
 	font-weight: 500;
-	background-image: url('/images/orchids/orchids-bg4.png');
+	background-image: url('/images/orchids/orchids-bg10.png');
+	background-position: center;
+	// background-attachment: fixed;
 	background-size: cover;
-	color: #fff;
+	color: #396f6a;
 	font-size: .8em;
 
 	a {
-		font-weight: 800;
-		color: #fff;
+		font-weight: 900;
+		color: #396f6a;
+		text-decoration: none;
 	}
 
 	.h1 {
 		font-family: "Clavo", serif;
-		color: #FFFFFF;
+		color: #df7e08;
+	}
+	.more
+	{
+		color: #FFF;
+		a {
+			color: #FFF;
+		}
+	#contact {
+		padding-right: 10px;
+	}
 	}
 }
