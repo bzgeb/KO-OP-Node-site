@@ -242,11 +242,16 @@ $games-bg-color: #F2F5F5;
 	// background-color: #71284f;
 	background-image: url('/images/orchids/orchids-bg3.png');
 	background-size: cover;
-	background-position: bottom;
+	background-position: center;
 	max-height: 600px;
 	overflow: hidden;
+.h1 {
+			color: #df7e08 ;
+		}
 	p {
 		padding-left: 20px;
+		color: #396f6a;
+
 	}
 	.btn-default {
 		background-color: #3A7D84;
