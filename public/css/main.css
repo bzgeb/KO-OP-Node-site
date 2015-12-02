@@ -625,11 +625,14 @@ input[type="text"], textarea {
 .orchids {
   background-image: url("/images/orchids/orchids-bg3.png");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   max-height: 600px;
   overflow: hidden; }
+  .orchids .h1 {
+    color: #df7e08; }
   .orchids p {
-    padding-left: 20px; }
+    padding-left: 20px;
+    color: #396f6a; }
   .orchids .btn-default {
     background-color: #3A7D84;
     color: #FFF; }
