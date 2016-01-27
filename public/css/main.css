@@ -883,6 +883,13 @@ input[type="text"], textarea {
     .orchids-container .more #contact {
       padding-right: 10px; }
 
+.lifebehindplay {
+  font-size: 1.5em;
+  color: black;
+  background-color: white; }
+  .lifebehindplay .KO_OP {
+    color: black; }
+
 /* Float */
 .hvr-float {
   display: inline-block;

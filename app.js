@@ -87,6 +87,10 @@ app.get('/orchids', function (req, res) {
   res.render('orchids.html', { layout: false });
 });
 
+app.get('/behindplay', function (req, res) {
+  res.render('lbp.html', { layout: false });
+});
+
 app.post('/mailing_list/subscribe', function (req, res) {
   var email = req.body.email;
   subscribe(email, mc_interest_group, res);
