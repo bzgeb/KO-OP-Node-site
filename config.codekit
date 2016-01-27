@@ -87,6 +87,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/lbp.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lbp.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/min\/app-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -2608,6 +2617,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/sass\/_kolab.scss",
 		"outputAbbreviatedPath": "\/public\/css\/_kolab.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/public\/sass\/_lifebehindplay.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/sass\/_lifebehindplay.scss",
+		"outputAbbreviatedPath": "\/public\/css\/_lifebehindplay.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
