@@ -9,20 +9,21 @@ $games-bg-color: #F2F5F5;
 
 	
 	font-family: $body-font;
-	font-weight: 800; 
-	color: #FFF;
+	font-weight: 400; 
+	color: #000;
 	background-color: #fafafa;
-	background-image: url('/images/ko_oppattern.png');
+	// background-image: url('/images/ko_oppattern.png');
 	background-attachment: fixed;
 	background-size: 150%;
 	#header-games {
 		font-family: $headline-font;
+		font-weight: 900;
 		font-size: 4em;
+		line-height: 1em;
 		letter-spacing: 5px;
 		color: $logo-color-green;
+
 	}
-
-
 
 
 }
@@ -46,7 +47,7 @@ $games-bg-color: #F2F5F5;
  				padding-top: 5px;
 				padding-left: 20px; 
 
- 				text-align: left;
+ 				// text-align: left;
  				min-height: 240px;
  				color: #FFF;
  				.spacedog {
@@ -103,13 +104,14 @@ $games-bg-color: #F2F5F5;
  			// background-color: $highlight-color;
  			background-color: $highlight-color-yellow-dark;
  			border: none;
+ 			border-radius: 5px!important;
  		}
 
 
 
  		.gnog {
 
-
+			color: #ffffff;
 
 
  			.h1 {
@@ -117,73 +119,39 @@ $games-bg-color: #F2F5F5;
  			}
  			.btn-default {
  			// background-color: $highlight-color;
- 			border-radius: 0px;
+ 			border-radius: 5px;
+ 			letter-spacing: 1px;
  			background-color: #ffff6b;
  			color: #292929;
  			border: none;
  		}
  		 	.btn-alt {
  			// background-color: $highlight-color;
- 			border-radius: 0px;
+ 			border-radius: 5px;
  			background-color: #00f985;
  			color: #292929;
  			border: none;
  		}
 
  		}
-
- 		.gnog-text {
-
- 			background-color: #1b395f;
- 			color: #ffffff;
-
-
-			.h1 {
- 				color: #fff26c;
- 			}
- 			.btn-default {
- 			// background-color: $highlight-color;
- 			border-radius: 0px;
- 			background-color: #ffff6b;
- 			color: #292929;
- 			border: none;
- 			}
- 		 	.btn-alt {
- 			// background-color: $highlight-color;
- 			border-radius: 0px;
- 			background-color: #00f985;
- 			color: #292929;
- 			border: none;
- 			} 			
-
-
- 			}
-
-
-// .container-fluid {
-// 	padding-right: 0px!important;
-// 	padding-left: 0px!important;
-// }
-
 
 
 .gnog-game {
 	background-color: #3f2046;
-	@media (max-width:768px) { background-image: url('/images/log-mobile.png') }
-	@media (min-width:769px) { background-image: url('/images/log2.png') }
+	@media (max-width:768px) { background-image: url('/images/GNOG-promo.png') }
+	@media (min-width:769px) { background-image: url('/images/GNOG-promo.png') }
 	// background-image: url('/images/log2.png');
 	background-size: cover;
 	background-position: center;
 	// max-height: 600px;
 	overflow: hidden;
 
-	p {		padding-left: 20px;
-	}
+	
 }
 
 .tamperdrome {
 	@media (max-width:768px) { background-color: #000000 }
-	@media (min-width:769px) { background-image: url('/images/tamperdrome5.gif') }
+	// @media (min-width:769px) { background-image: url('/images/tamperdrome5.gif') }
 	background-color: #000;
 	// background-image: url('/images/tamperdrome5.gif');
 	background-size: 50%;
@@ -205,8 +173,8 @@ $games-bg-color: #F2F5F5;
 }
 
 .spacedog {
-	background-image: url('/images/spacedog3.png');
-	background-size: cover;
+	color: #fff;
+	background-image: url('/images/spacedog-bg.png');
 	background-color: #166674;
 	// max-height: 600px;
 	overflow: hidden;
@@ -216,18 +184,21 @@ $games-bg-color: #F2F5F5;
 	}
 
 		.btn-default {
-		background-color: #1BCDF7;
-		color: #3A3A3A;
+		background-color: #8220F7;
+		color: #FFF;
 	}
 }
 
 .skippingstones {
-	background-image: url('/images/skippingstones3.png');
-	background-position: center;
+	background-image: url('/images/skippingstones2.png');
+	background-position: bottom;
 	background-size: cover;
 	// background-color: #fa91ac;
 	// max-height: 600px;
 	overflow: hidden;
+	.h1 {
+		color: white;
+	}
 	p {
 		padding-left: 20px; 
 		padding-right: 20px;
@@ -250,6 +221,7 @@ $games-bg-color: #F2F5F5;
 		}
 	p {
 		padding-left: 20px;
+		padding-right: 20px;
 		color: #396f6a;
 
 	}
@@ -261,11 +233,12 @@ $games-bg-color: #F2F5F5;
 
 .gardenarium-wrapper {
 	background-image: url('/images/gardenarium3.png');
-	background-size: cover;
 	background-position: right;
 	max-height: 600px;
 	overflow: hidden;
 	p {
+			padding-left: 20px;
+		padding-right: 20px;
 	color: #7438af;
 	}
 	.btn-default {
@@ -276,15 +249,16 @@ $games-bg-color: #F2F5F5;
 
 
 .ranpal {
-	background-image: url('/images/ranpal.png');
+	// background-image: url('/images/ranpal.png');
 	background-size: 50% ;
 	background-repeat: no-repeat;
 	background-position: right;
-	background-color: #FFF;
+	background-color: #E4E4E4;
 	max-height: 600px;
 	overflow: hidden;
 	p {
 		padding-left: 40px;
+		padding-right: 40px;
 	}
 	.text-wrapper {
 		color: #000;
@@ -294,20 +268,30 @@ $games-bg-color: #F2F5F5;
 
 .facerift
 {
-	background-image: url('/images/facerift2.gif');
+	background-image: url('/images/facerift2.png');
 	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	// background-color: #582C18;
 	max-height: 600px;
 	overflow: hidden;
+	// color: white;
+	#textvis {
+		color: white;
+		background-color: black;
+	}	
 	.h1 {
 		 color: white;
-  		-webkit-text-fill-color: white; /* Will override color (regardless of order) */
-   		-webkit-text-stroke-width: 2px;
-   		-webkit-text-stroke-color: black;
+	#black-text {
+		color: black!important;
+  		// -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	}
+   	// 	-webkit-text-stroke-width: 2px;
+   	// 	-webkit-text-stroke-color: black;
 
 	}
 	.text-wrapper {
-		background-color: black;
+		background-color: white;
 	}
 }
 
@@ -327,17 +311,17 @@ $games-bg-color: #F2F5F5;
 
 
 .kolab-banner {
-	// background-color: $logo-color-green;
+	// background-color: #fafafa;
 	// color: $logo-color-yellow;
 	height: 100px;
 	font-family: $headline-font;
-	color: white;
+	color: #000;
 	
 	.h1 {
 		// padding-top: 15px;
-		font-size: 4em;
+		font-size: 3em;
 		letter-spacing: 5px;
-		color: $logo-color-green;
+		color: $logo-color-orange;
 		
 	}
 }

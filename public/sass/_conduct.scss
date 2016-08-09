@@ -1,0 +1,24 @@
+.conduct {
+	background-color: #FFFFFF;
+	font-family: $body-font;
+	// font-size: .75em;
+	color: black;
+	
+	#header-conduct {
+		font-family: $headline-font;
+		font-size: 4em;
+		letter-spacing: 5px;
+		color: black;
+		margin-top: 1em;
+	}
+
+	p {
+		margin-top: 2em;
+	}
+
+	a {
+		color: black;
+		font-weight: 800;
+		text-decoration: underline;
+	}
+}
