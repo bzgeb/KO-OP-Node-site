@@ -6,12 +6,18 @@ $workshop-comingsoon-color: #737373;
 .workshops {
 	// font-size: 2em;
 	color: $general-text-color;
+	background-image: url('/images/workshop-bg.png');
+	background-size: cover;
+	background-position: right;
 
 	#header-workshops {
 		font-family: $headline-font;
+		font-weight: 900;
 		color: #552bf8;
-		font-size: 4em;
+		font-size: 2em;
 		letter-spacing: 5px;
+		line-height: 1em;
+
 	}
 
 
@@ -21,7 +27,6 @@ $workshop-comingsoon-color: #737373;
 		background-repeat: no-repeat;
 		background-size: 100%;
 		background-position: center;
-		color: white;
 	}
 
 	#workshop-sub {
@@ -44,9 +49,9 @@ $workshop-comingsoon-color: #737373;
 	}
 
 	.tutorial-links {
-		background-color: white;
-		background-image: url('/images/workshop-bg.png');
-		background-size: cover;
+		// background-color: white;
+		// background-image: url('/images/workshop-bg.png');
+		// background-size: cover;
 	}
 
 	a {
@@ -76,13 +81,13 @@ $workshop-comingsoon-color: #737373;
 	}
 
 	.booking {
-		color: #fff;
+		
 		.h1 {
 			font-family: $headline-font;
-			color: #FFF;
+			color: $logo-color-orange;
 		}
 		a {
-			color: #FFF;
+			// color: #FFF;
 		}
 	}
 

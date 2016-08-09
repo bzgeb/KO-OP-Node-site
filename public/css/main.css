@@ -18,12 +18,11 @@ body {
     margin-right: -30px !important; }
   .navbar-custom a {
     text-decoration: none;
-    margin-right: 5px;
-    color: #fafafa !important; }
+    margin-right: 5px; }
     .navbar-custom a #alt {
       color: #FFF !important; }
   .navbar-custom a:hover {
-    color: #212121 !important; }
+    color: #212121; }
   .navbar-custom .twitter-follow-button {
     margin-top: 15px; }
 
@@ -45,28 +44,28 @@ body {
   background-color: #ddc03a; }
 
 #red {
-  background-color: #ff5d30; }
+  color: #ff5d30; }
 
 #red:hover {
-  background-color: #DE4F27; }
+  color: #DE4F27; }
 
 #pink {
-  background-color: #fb27a3; }
+  color: #fb27a3; }
 
 #pink:hover {
-  background-color: #C91D83; }
+  color: #C91D83; }
 
 #green {
-  background-color: #56DC51; }
+  color: #56DC51; }
 
 #green:hover {
-  background-color: #40A33C; }
+  color: #40A33C; }
 
 #blue {
-  background-color: #552bf8; }
+  color: #552bf8; }
 
 #blue:hover {
-  background-color: #4621D1; }
+  color: #36206c; }
 
 #black {
   background-color: #000000; }
@@ -75,72 +74,161 @@ body {
   background-color: #505050; }
 
 body {
-  font-family: "soleil", sans-serif;
-  font-weight: 300;
+  font-family: "ff-mark-web", sans-serif;
+  font-weight: 400;
   color: #13242B;
-  background-color: #1F1F1F;
-  background-image: url("/images/ko_oppattern.png");
+  background-color: #FFF;
   background-attachment: fixed; }
+  body .h1 {
+    font-family: "ff-mark-web", sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px; }
+  body .h3 {
+    font-family: "ff-mark-web", sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px; }
+
+strong {
+  letter-spacing: 2px; }
+
+.trailerbutt {
+  /* Rectangle 3: */
+  /* Rectangle 3: */
+  background: #FB28B4;
+  box-shadow: 0px 5px 0px 0px #AC0474;
+  border-radius: 15px;
+  width: 350px;
+  height: 70px;
+  /* Watch the trailer: */
+  font-family: "ff-mark-web", sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
+  letter-spacing: 0px; }
+
+.btn:hover {
+  color: white; }
 
 .header {
-  background-image: url(/images/newsletterSection.png);
+  background-image: url(/images/GNOG-screenshot5.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  font-family: "soleil", sans-serif;
-  font-weight: 800;
+  font-family: "ff-mark-web", sans-serif;
   font-size: 1em;
-  color: black; }
+  color: #fff; }
   .header .h1 {
     font-family: "ff-mark-web", sans-serif;
-    font-size: 1.6em;
+    font-size: 2.5em;
     font-weight: 800;
-    color: #5F5F5F; }
+    color: #FFF;
+    line-height: 1.3em; }
+  .header p {
+    font-size: 1em;
+    color: #fff; }
+    .header p span:nth-child(1) {
+      color: #6FF55C; }
+    .header p span:nth-child(2) {
+      color: #FF623E; }
   .header a {
     font-size: 1.3em;
+    font-weight: 400;
     color: #FC27A4;
     text-decoration: underline; }
 
-.lead {
+.games-btn {
+  font-size: 1.4em;
+  font-family: "ff-mark-web", sans-serif;
+  /* Rectangle 3 Copy: */
+  background: #F5D544;
+  box-shadow: 0px 5px 0px 0px #907A15;
+  border-radius: 15px;
+  width: 350px;
+  height: 70px;
+  font-size: 30x; }
+
+.downloads-btn {
+  font-size: 1em;
+  font-family: "ff-mark-web", sans-serif;
+  /* Rectangle 3 Copy: */
+  background: #FF5D31;
+  box-shadow: 0px 5px 0px 0px #b20726;
+  border-radius: 15px;
+  width: 350px;
+  height: 70px;
+  font-size: 30px; }
+
+.shop-btn {
+  font-size: 1em;
+  font-family: "ff-mark-web", sans-serif;
+  /* Rectangle 3 Copy: */
+  background: #64F65C;
+  box-shadow: 0px 5px 0px 0px #1b8b1e;
+  border-radius: 15px;
+  width: 350px;
+  height: 70px;
+  font-size: 30px; }
+
+.downloads {
+  font-size: .8em; }
+  .downloads a {
+    color: #FC27A4; }
+  .downloads .h1 {
+    color: #FC27A4; }
+  .downloads .h3 {
+    color: #6C696B;
+    font-size: 1.2em; }
+
+.orchids-homepage {
   font-size: 1.1em;
   margin-bottom: 0px;
-  background-image: url("/images/orchidstodusk6.png");
-  background-size: cover;
-  background-position: center;
-  color: #282828;
-  background-color: #000000; }
-  .lead a {
+  color: #FFF;
+  background-color: #FFF; }
+  .orchids-homepage .orchids-lead {
+    background-image: url("/images/orchids-lead.png");
+    background-size: cover;
+    background-position: center; }
+  .orchids-homepage a {
     color: #fff;
     text-decoration: underline; }
-  .lead p {
+  .orchids-homepage p {
     font-family: "ff-mark-web", sans-serif;
     line-height: 1.5em;
     color: #fff; }
-  .lead .h1 {
+  .orchids-homepage .orchids-btn {
+    font-family: "ff-mark-web", sans-serif;
+    font-size: 1em;
+    width: 220px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* Rectangle 3 Copy 3: */
+    background: #EEBF65;
+    box-shadow: 0px 5px 0px 0px #907A15;
+    border-radius: 5px; }
+  .orchids-homepage .h1 {
     font-family: "ff-mark-web", sans-serif; }
-  .lead .sub {
+  .orchids-homepage .sub {
     font-size: 1.35em;
     line-height: 1.4em;
     letter-spacing: 1px; }
 
 .description {
-  font-family: "soleil", sans-serif;
-  background-image: url("/images/ko_oppattern.png");
-  background-attachment: fixed;
-  background-color: #222222;
+  font-family: "ff-mark-web", sans-serif;
+  background-color: #FFF;
   background-position: center;
   background-size: 150%;
-  color: #FFF; }
+  color: #000; }
   .description a {
     font-size: 1.2em;
     line-height: 1.8em;
     font-family: "ff-mark-web", sans-serif;
     color: #fff; }
   .description p {
-    font-size: 1.2em;
-    font-weight: 300;
-    line-height: 3em;
-    text-align: center; }
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+    color: #FF5D31; }
+    .description p span {
+      color: #FC27A4 !important; }
     .description p .h1 {
       font-family: "ff-mark-web", sans-serif;
       font-weight: 800;
@@ -162,13 +250,13 @@ body {
 .KO_OP {
   font-family: "ff-mark-web", sans-serif;
   font-weight: 800;
-  color: #FFF;
-  font-size: 1.5em;
+  color: #000;
+  font-size: 1.15em;
   letter-spacing: 1px; }
   .KO_OP span:nth-child(1) {
-    color: #FFF; }
+    color: #FC27A4; }
   .KO_OP span:nth-child(2) {
-    color: #F5E645; }
+    color: #FF5D31; }
   .KO_OP span:nth-child(3) {
     color: #FC27A4; }
   .KO_OP span:nth-child(4) {
@@ -216,19 +304,17 @@ body {
     font-size: 1.2em; }
 
 .follow2 {
-  background-color: #1F1F1F;
-  background-image: url("/images/ko_oppattern.png");
-  background-size: 150%;
-  background-position: center;
-  background-attachment: fixed;
-  color: #fff; }
+  background-color: #e4e4e4; }
   .follow2 p {
     font-size: .8em; }
   .follow2 .h1 {
-    color: #FFF;
+    color: #2987FF;
     font-family: "ff-mark-web", sans-serif;
     letter-spacing: 1px;
-    font-size: 2em; }
+    font-size: 4em; }
+  .follow2 .h3 {
+    font-size: 2em;
+    color: #9B9B9B; }
   .follow2 .twitter-follow-button {
     margin-left: 0px !important;
     padding-left: 0px !important;
@@ -279,17 +365,16 @@ form {
   font-size: .6em;
   margin-top: 13px; }
 
-.footer {
-  height: 40px;
-  background-color: #4120C1; }
-  .footer .col-sm-12 {
-    padding-right: 0px; }
-  .footer a {
-    font-family: "ff-mark-web", sans-serif;
-    color: #fafafa;
-    margin-right: 5px;
-    font-size: 1.1em;
-    font-weight: 800; }
+.footer3 {
+  font-size: .8em;
+  background-color: #333333;
+  background-image: url("/images/ko_oppattern.png");
+  background-size: cover;
+  color: white; }
+  .footer3 .h1 {
+    font-size: 1.5em; }
+  .footer3 a {
+    color: white; }
 
 .logo-font {
   font-family: "ff-mark-web", sans-serif;
@@ -385,12 +470,13 @@ form {
   transform: translateY(-50%); }
 
 .subscribe {
-  background-color: #FC27A4;
+  background-color: #FF5D31;
   text-indent: 0;
   border: 0px solid #dcdcdc;
+  border-radius: 15px;
   display: inline-block;
-  color: #f4d552 !important;
-  font-family: "Soleil";
+  color: #FFF !important;
+  font-family: "ff-mark-web", sans-serif;
   font-size: 1em;
   font-weight: normal;
   font-style: normal;
@@ -410,11 +496,14 @@ form {
   top: 1px; }
 
 input[type="text"], textarea {
-  background-color: #FFF;
-  width: 185px;
-  border: 0px;
+  font-family: "ff-mark-web", sans-serif;
+  background-color: #fff;
+  width: 285px;
+  border-radius: 15px;
+  border-width: 0px;
+  border-top-color: white;
   height: 37px;
-  color: #949494;
+  color: #9B9B9B;
   padding-left: 5px; }
 
 .subscribephone {
@@ -460,42 +549,43 @@ input[type="text"], textarea {
 
 ::-webkit-input-placeholder {
   /* WebKit browsers */
-  color: #949494;
+  color: #9B9B9B;
   letter-spacing: 2px;
   padding-left: 10px; }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #949494;
+  color: #9B9B9B;
   letter-spacing: 2px;
   padding-left: 10px; }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #949494;
+  color: #9B9B9B;
   letter-spacing: 2px;
   padding-left: 10px; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
-  color: #949494;
+  color: #9B9B9B;
   letter-spacing: 2px;
   padding-left: 10px; }
 
 .games-navbar {
-  background-color: #1F1F1F; }
+  background-color: #FFF; }
 
 .games-container {
-  font-family: "soleil", sans-serif;
-  font-weight: 800;
-  color: #FFF;
+  font-family: "ff-mark-web", sans-serif;
+  font-weight: 400;
+  color: #000;
   background-color: #fafafa;
-  background-image: url("/images/ko_oppattern.png");
   background-attachment: fixed;
   background-size: 150%; }
   .games-container #header-games {
     font-family: "ff-mark-web", sans-serif;
+    font-weight: 900;
     font-size: 4em;
+    line-height: 1em;
     letter-spacing: 5px;
     color: #64F65C; }
 
@@ -503,7 +593,6 @@ input[type="text"], textarea {
   margin-top: 20px;
   padding-top: 5px;
   padding-left: 20px;
-  text-align: left;
   min-height: 240px;
   color: #FFF; }
   .text-wrapper .spacedog {
@@ -534,33 +623,21 @@ input[type="text"], textarea {
 
 .btn-default {
   background-color: #C4B935;
-  border: none; }
+  border: none;
+  border-radius: 5px !important; }
 
-.gnog .h1 {
-  color: #fff26c; }
-.gnog .btn-default {
-  border-radius: 0px;
-  background-color: #ffff6b;
-  color: #292929;
-  border: none; }
-.gnog .btn-alt {
-  border-radius: 0px;
-  background-color: #00f985;
-  color: #292929;
-  border: none; }
-
-.gnog-text {
-  background-color: #1b395f;
+.gnog {
   color: #ffffff; }
-  .gnog-text .h1 {
+  .gnog .h1 {
     color: #fff26c; }
-  .gnog-text .btn-default {
-    border-radius: 0px;
+  .gnog .btn-default {
+    border-radius: 5px;
+    letter-spacing: 1px;
     background-color: #ffff6b;
     color: #292929;
     border: none; }
-  .gnog-text .btn-alt {
-    border-radius: 0px;
+  .gnog .btn-alt {
+    border-radius: 5px;
     background-color: #00f985;
     color: #292929;
     border: none; }
@@ -572,12 +649,10 @@ input[type="text"], textarea {
   overflow: hidden; }
   @media (max-width: 768px) {
     .gnog-game {
-      background-image: url("/images/log-mobile.png"); } }
+      background-image: url("/images/GNOG-promo.png"); } }
   @media (min-width: 769px) {
     .gnog-game {
-      background-image: url("/images/log2.png"); } }
-  .gnog-game p {
-    padding-left: 20px; }
+      background-image: url("/images/GNOG-promo.png"); } }
 
 .tamperdrome {
   background-color: #000;
@@ -589,9 +664,6 @@ input[type="text"], textarea {
   @media (max-width: 768px) {
     .tamperdrome {
       background-color: #000000; } }
-  @media (min-width: 769px) {
-    .tamperdrome {
-      background-image: url("/images/tamperdrome5.gif"); } }
   .tamperdrome p {
     padding-right: 20px;
     padding-left: 20px; }
@@ -600,21 +672,23 @@ input[type="text"], textarea {
     color: black; }
 
 .spacedog {
-  background-image: url("/images/spacedog3.png");
-  background-size: cover;
+  color: #fff;
+  background-image: url("/images/spacedog-bg.png");
   background-color: #166674;
   overflow: hidden; }
   .spacedog p {
     padding-left: 20px; }
   .spacedog .btn-default {
-    background-color: #1BCDF7;
-    color: #3A3A3A; }
+    background-color: #8220F7;
+    color: #FFF; }
 
 .skippingstones {
-  background-image: url("/images/skippingstones3.png");
-  background-position: center;
+  background-image: url("/images/skippingstones2.png");
+  background-position: bottom;
   background-size: cover;
   overflow: hidden; }
+  .skippingstones .h1 {
+    color: white; }
   .skippingstones p {
     padding-left: 20px;
     padding-right: 20px; }
@@ -632,6 +706,7 @@ input[type="text"], textarea {
     color: #df7e08; }
   .orchids p {
     padding-left: 20px;
+    padding-right: 20px;
     color: #396f6a; }
   .orchids .btn-default {
     background-color: #3A7D84;
@@ -639,42 +714,46 @@ input[type="text"], textarea {
 
 .gardenarium-wrapper {
   background-image: url("/images/gardenarium3.png");
-  background-size: cover;
   background-position: right;
   max-height: 600px;
   overflow: hidden; }
   .gardenarium-wrapper p {
+    padding-left: 20px;
+    padding-right: 20px;
     color: #7438af; }
   .gardenarium-wrapper .btn-default {
     background-color: #7438af;
     color: #FFF; }
 
 .ranpal {
-  background-image: url("/images/ranpal.png");
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: right;
-  background-color: #FFF;
+  background-color: #E4E4E4;
   max-height: 600px;
   overflow: hidden; }
   .ranpal p {
-    padding-left: 40px; }
+    padding-left: 40px;
+    padding-right: 40px; }
   .ranpal .text-wrapper {
     color: #000; }
 
 .facerift {
-  background-image: url("/images/facerift2.gif");
+  background-image: url("/images/facerift2.png");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   max-height: 600px;
   overflow: hidden; }
-  .facerift .h1 {
+  .facerift #textvis {
     color: white;
-    -webkit-text-fill-color: white;
-    /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black; }
-  .facerift .text-wrapper {
     background-color: black; }
+  .facerift .h1 {
+    color: white; }
+    .facerift .h1 #black-text {
+      color: black !important; }
+  .facerift .text-wrapper {
+    background-color: white; }
 
 .fishjn {
   background-image: url("/images/fishjn.png");
@@ -689,17 +768,17 @@ input[type="text"], textarea {
 .kolab-banner {
   height: 100px;
   font-family: "ff-mark-web", sans-serif;
-  color: white; }
+  color: #000; }
   .kolab-banner .h1 {
-    font-size: 4em;
+    font-size: 3em;
     letter-spacing: 5px;
-    color: #64F65C; }
+    color: #FF5D31; }
 
 .btn-default {
   border-radius: 0px; }
 
 .kolab {
-  font-family: "soleil", sans-serif;
+  font-family: "ff-mark-web", sans-serif;
   color: #FFF; }
   .kolab a {
     color: #FFF;
@@ -740,17 +819,21 @@ input[type="text"], textarea {
   margin-right: auto; }
 
 .workshops {
-  color: #5A5A5A; }
+  color: #5A5A5A;
+  background-image: url("/images/workshop-bg.png");
+  background-size: cover;
+  background-position: right; }
   .workshops #header-workshops {
     font-family: "ff-mark-web", sans-serif;
+    font-weight: 900;
     color: #552bf8;
-    font-size: 4em;
-    letter-spacing: 5px; }
+    font-size: 2em;
+    letter-spacing: 5px;
+    line-height: 1em; }
   .workshops .lead-workshops {
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center;
-    color: white; }
+    background-position: center; }
   .workshops #workshop-sub {
     font-family: "ff-mark-web", sans-serif; }
   .workshops .h1 {
@@ -761,10 +844,6 @@ input[type="text"], textarea {
   .workshops .h2 {
     font-size: 1.5em;
     text-decoration: underline; }
-  .workshops .tutorial-links {
-    background-color: white;
-    background-image: url("/images/workshop-bg.png");
-    background-size: cover; }
   .workshops a {
     color: #552bf8;
     text-decoration: underline; }
@@ -776,15 +855,12 @@ input[type="text"], textarea {
     background-color: #484848; }
   .workshops .textfield {
     line-height: 1.8em; }
-  .workshops .booking {
-    color: #fff; }
-    .workshops .booking .h1 {
-      font-family: "ff-mark-web", sans-serif;
-      color: #FFF; }
-    .workshops .booking a {
-      color: #FFF; }
+  .workshops .booking .h1 {
+    font-family: "ff-mark-web", sans-serif;
+    color: #FF5D31; }
 
 .about-wrapper {
+  background-color: #1F0325;
   color: #FFF; }
   .about-wrapper a {
     color: #FFF;
@@ -911,22 +987,45 @@ input[type="text"], textarea {
   -webkit-transform: translateY(-4px);
   transform: translateY(-4px); }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%; }
+.conduct {
+  background-color: #FFFFFF;
+  font-family: "ff-mark-web", sans-serif;
+  color: black; }
+  .conduct #header-conduct {
+    font-family: "ff-mark-web", sans-serif;
+    font-size: 4em;
+    letter-spacing: 5px;
+    color: black;
+    margin-top: 1em; }
+  .conduct p {
+    margin-top: 2em; }
+  .conduct a {
+    color: black;
+    font-weight: 800;
+    text-decoration: underline; }
 
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px; }
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 48px;
-  background-color: #fafafa; }
+.jobs {
+  background-color: #FFFFFF;
+  font-family: "ff-mark-web", sans-serif;
+  font-size: .9em;
+  color: black; }
+  .jobs .KO_OP2 {
+    color: black; }
+  .jobs #header-jobs {
+    font-family: "ff-mark-web", sans-serif;
+    font-size: 4em;
+    letter-spacing: 5px;
+    color: black;
+    margin-top: 1em;
+    font-weight: 900; }
+  .jobs .h1 {
+    font-family: "ff-mark-web", sans-serif;
+    font-weight: 800; }
+  .jobs p {
+    margin-top: 1.5em; }
+  .jobs a {
+    color: black;
+    font-weight: 800;
+    text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */

@@ -31,7 +31,7 @@ $link-hover-color: #212121;
 		text-decoration: none;
 		margin-right: 5px;
 		// Remove this for collapsed navbar
-		color: $link-color !important;
+		// color: $link-color !important;
 
 		#alt {
 			color: $link-alt-color!important;
@@ -39,7 +39,7 @@ $link-hover-color: #212121;
 
 	}
 	a:hover {
- 	color: $link-hover-color !important;
+ 	color: $link-hover-color;
 
 	}
 
@@ -79,35 +79,35 @@ $link-hover-color: #212121;
 }
 
 #red {
-	background-color: #ff5d30;
+	color: #ff5d30;
 }
 
 #red:hover {
-	background-color: #DE4F27;
+	color: #DE4F27;
 }
 
 #pink {
-	background-color: #fb27a3;
+	color: #fb27a3;
 }
 
 #pink:hover {
-	background-color: #C91D83;
+	color: #C91D83;
 }
 
 #green {
-	background-color: #56DC51;
+	color: #56DC51;
 }
 
 #green:hover {
-	background-color: #40A33C;
+	color: #40A33C;
 }
 
 #blue {
-	background-color: #552bf8;
+	color: #552bf8;
 }
 
 #blue:hover {
-	background-color: #4621D1;
+	color: #36206c;
 }
 
 #black {

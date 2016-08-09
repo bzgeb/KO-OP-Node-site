@@ -1,15 +1,15 @@
 // Core KO-OP Homepage Styles
 
 $headline-font: "ff-mark-web", sans-serif;
-$body-font: "soleil", sans-serif;
+$body-font: "ff-mark-web", sans-serif;
 $header-font: "Bariol Big", sans-serif;
 $header-color: black;
 $primary-color: #13242B;
 $secondary-color: #3B84D4;
 $highlight-color: #4BD940;
-$header-image: url(/images/newsletterSection.png);
+$header-image: url(/images/GNOG-screenshot5.png);
 $header-bg-color: #44675B;
-$body-bg-color: #1F1F1F;
+$body-bg-color: #FFF;
 $subsection-bg-color: #DFE8D2;
 $footer-bg-color: #4120C1;
 $games-highlight: #000 ;
@@ -41,50 +41,157 @@ $follow-h1-text: #4e4e94;
 body {
 
 	font-family: $body-font;
-	font-weight: 300;
+	font-weight: 400;
 	color: $primary-color;
 	background-color: $body-bg-color;
-	background-image: url('/images/ko_oppattern.png');
+	// background-image: url('/images/ko_oppattern.png');
 	background-attachment: fixed;
 	
 
+.h1 {
+	font-family: $headline-font;
+	font-weight: 800;
+	letter-spacing: 2px;
+	}
+
+.h3 {
+	font-family: $headline-font;
+	font-size: 1em;
+	letter-spacing: 1px;
+}
 
 }
+
+strong {
+	letter-spacing: 2px;
+}
+
+.trailerbutt {
+	/* Rectangle 3: */
+/* Rectangle 3: */
+background: #FB28B4;
+box-shadow: 0px 5px 0px 0px #AC0474;
+border-radius: 15px;
+width: 350px;
+height: 70px;
+/* Watch the trailer: */
+font-family: $headline-font;
+font-size: 30px;
+color: #FFFFFF;
+letter-spacing: 0px;
+}
+
+.btn:hover {
+	color: white;
+}
+
 
 .header {
 	background-image: $header-image;
 	background-size: cover;
+	// background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
 	font-family: $body-font;
-	font-weight: 800;
+	
 	font-size: 1em;
-	color: $header-color;
+	color: #fff;
+	// line-height: 1.5em;
 
 	.h1 {
 		font-family: $headline-font;
-		font-size: 1.6em;
+		font-size: 2.5em;
 		font-weight: 800;
-		color: #5F5F5F;
+		color: #FFF;
+		line-height: 1.3em;
+	}
+
+	p {
+		
+		font-size: 1em;
+		
+		color: #fff;
+		span:nth-child(1) {
+			color: #6FF55C;
+		}
+		span:nth-child(2) {
+			color: #FF623E;
+		}
 	}
 
 	a {
 		font-size: 1.3em;
+		font-weight: 400;
 		color: $logo-color-pink;
 		text-decoration: underline;
 	}
 }
 
-.lead {
+.games-btn{
+	font-size: 1.4em;
+	font-family: $headline-font;
+	/* Rectangle 3 Copy: */
+	background: #F5D544;
+	box-shadow: 0px 5px 0px 0px #907A15;
+	border-radius: 15px;
+	width: 350px;
+	height: 70px;
+	font-size: 30x;
+}
+
+.downloads-btn{
+	font-size: 1em;
+	font-family: $headline-font;
+	/* Rectangle 3 Copy: */
+	background: $logo-color-orange;
+	box-shadow: 0px 5px 0px 0px #b20726;
+	border-radius: 15px;
+	width: 350px;
+	height: 70px;
+	font-size: 30px;
+
+}
+
+.shop-btn{
+	font-size: 1em;
+	font-family: $headline-font;
+	/* Rectangle 3 Copy: */
+	background: $logo-color-green;
+	box-shadow: 0px 5px 0px 0px #1b8b1e;
+	border-radius: 15px;
+	width: 350px;
+	height: 70px;
+	font-size: 30px;
+
+}
+
+.downloads {
+	// background-color: ;
+	font-size: .8em;
+	a {
+		color: $logo-color-pink;
+	}
+
+	.h1 {
+		color: $logo-color-pink;
+	}
+	.h3 {
+		color: #6C696B;
+		font-size: 1.2em;
+	}
+}
+
+.orchids-homepage {
 	font-size: 1.1em;
 	margin-bottom: 0px;
-	background-image: url('/images/orchidstodusk6.png');
-	background-size: cover;
+		.orchids-lead {
+			background-image: url('/images/orchids-lead.png');
+			background-size: cover;
 
-	background-position: center;
-	// background-attachment: fixed;
-	color: #282828;
-	background-color: #000000;
+			background-position: center;
+						}
+	color: #FFF;
+	background-color: #FFF;
 	a {
 		color: #fff;
 		text-decoration: underline;
@@ -93,6 +200,20 @@ body {
 		font-family: $headline-font;
 		line-height: 1.5em;
 		color: #fff;
+	}
+
+	.orchids-btn {
+		font-family: $headline-font;
+		font-size: 1em;
+		width: 220px;
+		margin-right: 20px;
+		margin-left: 20px;
+		/* Rectangle 3 Copy 3: */
+		background: #EEBF65;
+		box-shadow: 0px 5px 0px 0px #907A15;
+		border-radius: 5px;
+		
+
 	}
 	
 	.h1 {
@@ -107,13 +228,14 @@ body {
 }
 
 .description {
-	font-family: $body-font;
-	background-image: url('/images/ko_oppattern.png');
-	background-attachment: fixed;
-	background-color: #222222;
+	font-family: $headline-font;
+	// height: 100vh;
+	// background-image: url('/images/ko_oppattern2test.png');
+	// background-attachment: fixed;
+	background-color: #FFF;
 	background-position: center;
 	background-size: 150%;
-	color: #FFF;
+	color: #000;
 	a {
 		font-size: 1.2em;
 		line-height: 1.8em;
@@ -138,10 +260,15 @@ body {
 	// // 	color: $logo-color-yellow;
 	// // }
 	p {
-		font-size: 1.2em;
-		font-weight: 300;
-		line-height: 3em;
+		font-size: 2em;
+		font-weight: 800;
+		// line-height: 3em;
 		text-align: center;
+		color: $logo-color-orange;
+		span {
+			color: $logo-color-pink!important;
+			// text-decoration: underline;
+		}
 
 		.h1 {
 		font-family: $headline-font;
@@ -179,14 +306,14 @@ body {
 .KO_OP {
 	font-family: $headline-font;
 	font-weight: 800;
-	color: #FFF;
-	font-size: 1.5em;
+	color: #000;
+	font-size: 1.15em;
 	letter-spacing: 1px;
 	span:nth-child(1) {
-		color: #FFF;
+		color: $logo-color-pink;
 	}
 	span:nth-child(2) {
-		color: $logo-color-yellow;
+		color: $logo-color-orange;
 	}
 	span:nth-child(3) {
 		color: $logo-color-pink;
@@ -255,21 +382,20 @@ body {
 }
 
 .follow2 {
-	background-color: $body-bg-color;
-	background-image: url('/images/ko_oppattern.png');
-	background-size: 150%;
-	background-position: center;
-	background-attachment: fixed;
-	color: #fff;
+	background-color: #e4e4e4;
 	p {
 		font-size: .8em;
 	}
 
 	.h1 {
-		color: #FFF;
+		color: #2987FF;
 		font-family: $headline-font;
 		letter-spacing: 1px;
+		font-size: 4em;
+	}
+	.h3 {
 		font-size: 2em;
+		color: #9B9B9B;
 	}
 	.twitter-follow-button {
 		margin-left: 0px!important;
@@ -335,23 +461,19 @@ form {
 }
 
 
-.footer {
-	.col-sm-12 {
-		padding-right: 0px;
+.footer3 {
+	font-size: .8em;
+	.h1 {
+		font-size: 1.5em;
 	}
-	height: 40px;
-	// margin-bottom: 0px;
-	// float: right;
-	// left: 250px;
-	background-color: $footer-bg-color;
-	// position: relative;
-	a {
-		font-family: $headline-font;
-		color: $footer-text-color;
-		margin-right: 5px;
-		font-size: 1.1em;
-		font-weight: 800;
-	}
+
+background-color: #333333;
+background-image: url('/images/ko_oppattern.png');
+background-size: cover;
+color: white;
+a {
+	color: white;
+}
 }
 
 .logo-font {

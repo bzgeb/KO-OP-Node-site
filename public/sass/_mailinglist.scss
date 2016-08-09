@@ -4,12 +4,13 @@
 
 .subscribe {
 	
-	background-color:$logo-color-pink;
+	background-color:$logo-color-orange;
 	text-indent:0;
 	border:0px solid #dcdcdc;
+	border-radius: 15px;
 	display:inline-block;
-	color:#f4d552 !important;
-	font-family:"Soleil";
+	color:#FFF !important;
+	font-family: $headline-font;
 	font-size:1em;
 	font-weight:normal;
 	font-style:normal;
@@ -32,12 +33,16 @@
 
 input[type="text"], textarea {
 
-  background-color : #FFF; 
-  width: 185px;
-  border: 0px;
+	font-family: $headline-font;
+  background-color : #fff; 
+  width: 285px;
+  border-radius: 15px;
+  border-width: 0px;
+  border-top-color: white;
   height: 37px;
-  color:  #949494;
+  color:  #9B9B9B;
   padding-left: 5px;
+
 
 }
 
@@ -83,22 +88,22 @@ input[type="text"], textarea {
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #949494;
+    color:    #9B9B9B;
     letter-spacing: 2px;
     padding-left: 10px;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:     #949494;
+    color:     #9B9B9B;
     letter-spacing: 2px;
     padding-left: 10px;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:     #949494;
+    color:     #9B9B9B;
     letter-spacing: 2px;
     padding-left: 10px;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:     #949494;
+    color:     #9B9B9B;
     letter-spacing: 2px;
     padding-left: 10px;
 }
