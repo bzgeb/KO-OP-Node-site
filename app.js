@@ -59,6 +59,10 @@ app.get('/about', function (req, res) {
   res.render('about.html', { layout: false });
 });
 
+app.get('/conduct', function (req, res) {
+  res.render('conduct.html', { layout: false });
+});
+
 app.get('/pokodome', function (req, res) {
   res.render('pokodome.html', { layout: false });
 });
@@ -85,6 +89,10 @@ app.get('/gardenarium', function (req, res) {
 
 app.get('/orchids', function (req, res) {
   res.render('orchids.html', { layout: false });
+});
+
+app.get('/jobs', function (req, res) {
+  res.render('jobs.html', { layout: false });
 });
 
 app.get('/behindplay', function (req, res) {

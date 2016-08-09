@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19102",
+"creatorBuild": "19127",
 "files": {
 	"\/about.html": {
 		"fileType": 8192,
@@ -32,6 +32,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/conduct.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/conduct.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/config.rb": {
 		"fileType": 131072,
@@ -74,6 +83,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/jobs.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jobs.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1446,6 +1464,50 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/public\/downloads\/gnog-stickers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207728,
+		"inputAbbreviatedPath": "\/public\/downloads\/gnog-stickers.png",
+		"outputAbbreviatedPath": "\/public\/downloads\/gnog-stickers.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/downloads\/gnog-synth-brand-logo-preview.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9832,
+		"inputAbbreviatedPath": "\/public\/downloads\/gnog-synth-brand-logo-preview.png",
+		"outputAbbreviatedPath": "\/public\/downloads\/gnog-synth-brand-logo-preview.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/downloads\/gnogPaperToys.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34717,
+		"inputAbbreviatedPath": "\/public\/downloads\/gnogPaperToys.png",
+		"outputAbbreviatedPath": "\/public\/downloads\/gnogPaperToys.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/downloads\/gnogSynthWallpaper.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54232,
+		"inputAbbreviatedPath": "\/public\/downloads\/gnogSynthWallpaper.png",
+		"outputAbbreviatedPath": "\/public\/downloads\/gnogSynthWallpaper.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/apple-touch-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1472,7 +1534,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 187427,
+		"initialSize": 175677,
 		"inputAbbreviatedPath": "\/public\/images\/biocube.png",
 		"outputAbbreviatedPath": "\/public\/images\/biocube.png",
 		"outputPathIsOutsideProject": 0,
@@ -1552,6 +1614,17 @@
 		"initialSize": 219162,
 		"inputAbbreviatedPath": "\/public\/images\/facerift.png",
 		"outputAbbreviatedPath": "\/public\/images\/facerift.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/facerift2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 191732,
+		"inputAbbreviatedPath": "\/public\/images\/facerift2.png",
+		"outputAbbreviatedPath": "\/public\/images\/facerift2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1743,6 +1816,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/images\/gnog-promo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77898,
+		"inputAbbreviatedPath": "\/public\/images\/gnog-promo.png",
+		"outputAbbreviatedPath": "\/public\/images\/gnog-promo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/GNOG-screenshot1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 581864,
+		"inputAbbreviatedPath": "\/public\/images\/GNOG-screenshot1.png",
+		"outputAbbreviatedPath": "\/public\/images\/GNOG-screenshot1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/GNOG-screenshot2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 331266,
+		"inputAbbreviatedPath": "\/public\/images\/GNOG-screenshot2.png",
+		"outputAbbreviatedPath": "\/public\/images\/GNOG-screenshot2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/GNOG-screenshot3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 385651,
+		"inputAbbreviatedPath": "\/public\/images\/GNOG-screenshot3.png",
+		"outputAbbreviatedPath": "\/public\/images\/GNOG-screenshot3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/GNOG-screenshot4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76564,
+		"inputAbbreviatedPath": "\/public\/images\/GNOG-screenshot4.png",
+		"outputAbbreviatedPath": "\/public\/images\/GNOG-screenshot4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/GNOG-screenshot5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56520,
+		"inputAbbreviatedPath": "\/public\/images\/GNOG-screenshot5.png",
+		"outputAbbreviatedPath": "\/public\/images\/GNOG-screenshot5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/gp.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1772,6 +1911,61 @@
 		"initialSize": 40973,
 		"inputAbbreviatedPath": "\/public\/images\/ko_oppattern.png",
 		"outputAbbreviatedPath": "\/public\/images\/ko_oppattern.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/ko_oppattern2test.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115847,
+		"inputAbbreviatedPath": "\/public\/images\/ko_oppattern2test.png",
+		"outputAbbreviatedPath": "\/public\/images\/ko_oppattern2test.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/laurels-gnog-gold3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 170136,
+		"inputAbbreviatedPath": "\/public\/images\/laurels-gnog-gold3.png",
+		"outputAbbreviatedPath": "\/public\/images\/laurels-gnog-gold3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/laurels-gnog-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119217,
+		"inputAbbreviatedPath": "\/public\/images\/laurels-gnog-white.png",
+		"outputAbbreviatedPath": "\/public\/images\/laurels-gnog-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/laurels-gnog.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61167,
+		"inputAbbreviatedPath": "\/public\/images\/laurels-gnog.png",
+		"outputAbbreviatedPath": "\/public\/images\/laurels-gnog.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/laurels-placeholder.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31536,
+		"inputAbbreviatedPath": "\/public\/images\/laurels-placeholder.png",
+		"outputAbbreviatedPath": "\/public\/images\/laurels-placeholder.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1809,6 +2003,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/images\/megaphone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4243,
+		"inputAbbreviatedPath": "\/public\/images\/megaphone.png",
+		"outputAbbreviatedPath": "\/public\/images\/megaphone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/mos.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1838,6 +2043,17 @@
 		"initialSize": 7440,
 		"inputAbbreviatedPath": "\/public\/images\/nick.png",
 		"outputAbbreviatedPath": "\/public\/images\/nick.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/orchids-lead.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74425,
+		"inputAbbreviatedPath": "\/public\/images\/orchids-lead.png",
+		"outputAbbreviatedPath": "\/public\/images\/orchids-lead.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2029,6 +2245,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/images\/patternpipesdark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60535,
+		"inputAbbreviatedPath": "\/public\/images\/patternpipesdark.png",
+		"outputAbbreviatedPath": "\/public\/images\/patternpipesdark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/pokodome-header.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2110,7 +2337,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 91707,
+		"initialSize": 60890,
 		"inputAbbreviatedPath": "\/public\/images\/rigbmx1.png",
 		"outputAbbreviatedPath": "\/public\/images\/rigbmx1.png",
 		"outputPathIsOutsideProject": 0,
@@ -2205,6 +2432,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/images\/skippingstones2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71680,
+		"inputAbbreviatedPath": "\/public\/images\/skippingstones2.png",
+		"outputAbbreviatedPath": "\/public\/images\/skippingstones2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/skippingstones3.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2234,6 +2472,17 @@
 		"initialSize": 69417,
 		"inputAbbreviatedPath": "\/public\/images\/social-bg.png",
 		"outputAbbreviatedPath": "\/public\/images\/social-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/spacedog-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2033,
+		"inputAbbreviatedPath": "\/public\/images\/spacedog-bg.png",
+		"outputAbbreviatedPath": "\/public\/images\/spacedog-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2308,7 +2557,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 209131,
+		"initialSize": 180697,
 		"inputAbbreviatedPath": "\/public\/images\/tamperdrome2.png",
 		"outputAbbreviatedPath": "\/public\/images\/tamperdrome2.png",
 		"outputPathIsOutsideProject": 0,
@@ -2319,7 +2568,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 208856,
+		"initialSize": 180433,
 		"inputAbbreviatedPath": "\/public\/images\/tamperdrome3.png",
 		"outputAbbreviatedPath": "\/public\/images\/tamperdrome3.png",
 		"outputPathIsOutsideProject": 0,
@@ -2512,6 +2761,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/public\/sass\/_conduct.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/sass\/_conduct.scss",
+		"outputAbbreviatedPath": "\/public\/css\/_conduct.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/public\/sass\/_core.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -2585,6 +2850,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/sass\/_hovereffect.scss",
 		"outputAbbreviatedPath": "\/public\/css\/_hovereffect.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/public\/sass\/_jobs.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/sass\/_jobs.scss",
+		"outputAbbreviatedPath": "\/public\/css\/_jobs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

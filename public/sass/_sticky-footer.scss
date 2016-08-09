@@ -6,7 +6,8 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  // Disabled because it's messing wherever there's no footer
+  // margin-bottom: 48px;
 }
 .footer {
   position: absolute;

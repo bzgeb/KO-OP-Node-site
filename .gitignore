@@ -1,2 +1,4 @@
 configs.js
 *.DS_Store
+
+*.codekit
