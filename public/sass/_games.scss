@@ -138,8 +138,8 @@ $games-bg-color: #F2F5F5;
 
 .gnog-game {
 	background-color: #3f2046;
-	@media (max-width:768px) { background-image: url('/images/GNOG-promo.png') }
-	@media (min-width:769px) { background-image: url('/images/GNOG-promo.png') }
+	@media (max-width:768px) { background-image: url('/images/gnog-promo.png') }
+	@media (min-width:769px) { background-image: url('/images/gnog-promo.png') }
 	// background-image: url('/images/log2.png');
 	background-size: cover;
 	background-position: center;
