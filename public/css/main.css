@@ -649,10 +649,10 @@ input[type="text"], textarea {
   overflow: hidden; }
   @media (max-width: 768px) {
     .gnog-game {
-      background-image: url("/images/GNOG-promo.png"); } }
+      background-image: url("/images/gnog-promo.png"); } }
   @media (min-width: 769px) {
     .gnog-game {
-      background-image: url("/images/GNOG-promo.png"); } }
+      background-image: url("/images/gnog-promo.png"); } }
 
 .tamperdrome {
   background-color: #000;
