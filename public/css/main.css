@@ -95,7 +95,25 @@ strong {
   /* Rectangle 3: */
   /* Rectangle 3: */
   background: #FB28B4;
+  margin-bottom: 10px;
+  margin-right: 10px;
   box-shadow: 0px 5px 0px 0px #AC0474;
+  border-radius: 15px;
+  width: 350px;
+  height: 70px;
+  /* Watch the trailer: */
+  font-family: "ff-mark-web", sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
+  letter-spacing: 0px; }
+
+.preorderbutt {
+  /* Rectangle 3: */
+  /* Rectangle 3: */
+  background: #FF5D31;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 5px 0px 0px #cb4e2d;
   border-radius: 15px;
   width: 350px;
   height: 70px;
@@ -109,7 +127,7 @@ strong {
   color: white; }
 
 .header {
-  background-image: url(/images/GNOG-screenshot5.png);
+  background-image: url(/images/GNOG-screenshot2bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
