@@ -38,10 +38,10 @@ body {
   margin-left: 5px; }
 
 #yellow {
-  background-color: #f5d544; }
+  color: #E6C63E; }
 
 #yellow:hover {
-  background-color: #ddc03a; }
+  color: #C4A936; }
 
 #red {
   color: #ff5d30; }
@@ -195,6 +195,40 @@ strong {
   .downloads .h3 {
     color: #6C696B;
     font-size: 1.2em; }
+
+.lcgo-homepage {
+  font-size: 1.1em;
+  margin-bottom: 0px;
+  color: #FFF; }
+  .lcgo-homepage .KO_OP {
+    color: #fff; }
+  .lcgo-homepage .lcgo-lead {
+    background-image: url("/images/lcgo-lead.png");
+    background-size: cover;
+    background-position: center; }
+  .lcgo-homepage a {
+    color: #fff;
+    text-decoration: underline; }
+  .lcgo-homepage p {
+    font-family: "ff-mark-web", sans-serif;
+    line-height: 1.5em;
+    color: #fff; }
+  .lcgo-homepage .lcgo-btn {
+    font-family: "ff-mark-web", sans-serif;
+    font-size: 1em;
+    width: 220px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* Rectangle 3 Copy 3: */
+    background: #003f56;
+    box-shadow: 0px 5px 0px 0px #022f40;
+    border-radius: 5px; }
+  .lcgo-homepage .h1 {
+    font-family: "ff-mark-web", sans-serif; }
+  .lcgo-homepage .sub {
+    font-size: 1.35em;
+    line-height: 1.4em;
+    letter-spacing: 1px; }
 
 .orchids-homepage {
   font-size: 1.1em;

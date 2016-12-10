@@ -199,6 +199,53 @@ letter-spacing: 0px;
 	}
 }
 
+.lcgo-homepage {
+	font-size: 1.1em;
+	margin-bottom: 0px;
+	color: #FFF;
+	.KO_OP {
+		color: #fff;
+	}
+		.lcgo-lead {
+			background-image: url('/images/lcgo-lead.png');
+			background-size: cover;
+			background-position: center;
+		}
+
+		a {
+		color: #fff;
+		text-decoration: underline;
+	}
+	p {
+		font-family: $headline-font;
+		line-height: 1.5em;
+		color: #fff;
+	}
+	.lcgo-btn {
+		font-family: $headline-font;
+		font-size: 1em;
+		width: 220px;
+		margin-right: 20px;
+		margin-left: 20px;
+		/* Rectangle 3 Copy 3: */
+		background: #003f56;
+		box-shadow: 0px 5px 0px 0px #022f40;
+		border-radius: 5px;
+		
+
+	}
+	
+	.h1 {
+		font-family: $headline-font;
+	}
+
+	.sub {
+		font-size: 1.35em;
+		line-height: 1.4em;
+		letter-spacing: 1px;
+	}
+}
+
 .orchids-homepage {
 	font-size: 1.1em;
 	margin-bottom: 0px;
