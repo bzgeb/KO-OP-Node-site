@@ -706,6 +706,17 @@ input[type="text"], textarea {
     .gnog-game {
       background-image: url("/images/gnog-promo.png"); } }
 
+.lcgo {
+  background-image: url("/images/lcgo-lead-dark.png");
+  background-size: cover;
+  color: #fff; }
+  .lcgo .btn-default {
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: #d5b369;
+    color: #FFF;
+    border: none; }
+
 .tamperdrome {
   background-color: #000;
   background-size: 50%;

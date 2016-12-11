@@ -149,6 +149,21 @@ $games-bg-color: #F2F5F5;
 	
 }
 
+
+.lcgo {
+	background-image: url('/images/lcgo-lead-dark.png');
+	background-size: cover;
+	color: #fff;
+	.btn-default {
+ 			// background-color: $highlight-color;
+ 			border-radius: 5px;
+ 			letter-spacing: 1px;
+ 			background-color: #d5b369;
+ 			color: #FFF;
+ 			border: none;
+ 		}
+}
+
 .tamperdrome {
 	@media (max-width:768px) { background-color: #000000 }
 	// @media (min-width:769px) { background-image: url('/images/tamperdrome5.gif') }

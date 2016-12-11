@@ -2003,6 +2003,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/images\/lcgo-lead-dark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 594653,
+		"inputAbbreviatedPath": "\/public\/images\/lcgo-lead-dark.png",
+		"outputAbbreviatedPath": "\/public\/images\/lcgo-lead-dark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/lcgo-lead.png": {
 		"fileType": 32768,
 		"ignore": 0,
