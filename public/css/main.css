@@ -38,10 +38,10 @@ body {
   margin-left: 5px; }
 
 #yellow {
-  background-color: #f5d544; }
+  color: #E6C63E; }
 
 #yellow:hover {
-  background-color: #ddc03a; }
+  color: #C4A936; }
 
 #red {
   color: #ff5d30; }
@@ -95,7 +95,25 @@ strong {
   /* Rectangle 3: */
   /* Rectangle 3: */
   background: #FB28B4;
+  margin-bottom: 10px;
+  margin-right: 10px;
   box-shadow: 0px 5px 0px 0px #AC0474;
+  border-radius: 15px;
+  width: 350px;
+  height: 70px;
+  /* Watch the trailer: */
+  font-family: "ff-mark-web", sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
+  letter-spacing: 0px; }
+
+.preorderbutt {
+  /* Rectangle 3: */
+  /* Rectangle 3: */
+  background: #FF5D31;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 5px 0px 0px #cb4e2d;
   border-radius: 15px;
   width: 350px;
   height: 70px;
@@ -109,7 +127,7 @@ strong {
   color: white; }
 
 .header {
-  background-image: url(/images/GNOG-screenshot5.png);
+  background-image: url(/images/GNOG-screenshot2bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -177,6 +195,40 @@ strong {
   .downloads .h3 {
     color: #6C696B;
     font-size: 1.2em; }
+
+.lcgo-homepage {
+  font-size: 1.1em;
+  margin-bottom: 0px;
+  color: #FFF; }
+  .lcgo-homepage .KO_OP {
+    color: #fff; }
+  .lcgo-homepage .lcgo-lead {
+    background-image: url("/images/lcgo-lead.png");
+    background-size: cover;
+    background-position: center; }
+  .lcgo-homepage a {
+    color: #fff;
+    text-decoration: underline; }
+  .lcgo-homepage p {
+    font-family: "ff-mark-web", sans-serif;
+    line-height: 1.5em;
+    color: #fff; }
+  .lcgo-homepage .lcgo-btn {
+    font-family: "ff-mark-web", sans-serif;
+    font-size: 1em;
+    width: 220px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* Rectangle 3 Copy 3: */
+    background: #003f56;
+    box-shadow: 0px 5px 0px 0px #022f40;
+    border-radius: 5px; }
+  .lcgo-homepage .h1 {
+    font-family: "ff-mark-web", sans-serif; }
+  .lcgo-homepage .sub {
+    font-size: 1.35em;
+    line-height: 1.4em;
+    letter-spacing: 1px; }
 
 .orchids-homepage {
   font-size: 1.1em;
@@ -653,6 +705,17 @@ input[type="text"], textarea {
   @media (min-width: 769px) {
     .gnog-game {
       background-image: url("/images/gnog-promo.png"); } }
+
+.lcgo {
+  background-image: url("/images/lcgo-lead-dark.png");
+  background-size: cover;
+  color: #fff; }
+  .lcgo .btn-default {
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: #d5b369;
+    color: #FFF;
+    border: none; }
 
 .tamperdrome {
   background-color: #000;

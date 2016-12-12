@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19127",
+"creatorBuild": "19137",
 "files": {
 	"\/about.html": {
 		"fileType": 8192,
@@ -1838,6 +1838,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/images\/GNOG-screenshot1bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 505250,
+		"inputAbbreviatedPath": "\/public\/images\/GNOG-screenshot1bg.png",
+		"outputAbbreviatedPath": "\/public\/images\/GNOG-screenshot1bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/GNOG-screenshot2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1849,6 +1860,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/images\/GNOG-screenshot2bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105703,
+		"inputAbbreviatedPath": "\/public\/images\/GNOG-screenshot2bg.png",
+		"outputAbbreviatedPath": "\/public\/images\/GNOG-screenshot2bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/GNOG-screenshot3.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1856,6 +1878,17 @@
 		"initialSize": 385651,
 		"inputAbbreviatedPath": "\/public\/images\/GNOG-screenshot3.png",
 		"outputAbbreviatedPath": "\/public\/images\/GNOG-screenshot3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/GNOG-screenshot3bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 319980,
+		"inputAbbreviatedPath": "\/public\/images\/GNOG-screenshot3bg.png",
+		"outputAbbreviatedPath": "\/public\/images\/GNOG-screenshot3bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1966,6 +1999,28 @@
 		"initialSize": 31536,
 		"inputAbbreviatedPath": "\/public\/images\/laurels-placeholder.png",
 		"outputAbbreviatedPath": "\/public\/images\/laurels-placeholder.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/lcgo-lead-dark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 594653,
+		"inputAbbreviatedPath": "\/public\/images\/lcgo-lead-dark.png",
+		"outputAbbreviatedPath": "\/public\/images\/lcgo-lead-dark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/lcgo-lead.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8.4873e+06,
+		"inputAbbreviatedPath": "\/public\/images\/lcgo-lead.png",
+		"outputAbbreviatedPath": "\/public\/images\/lcgo-lead.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
