@@ -7,7 +7,7 @@ $header-color: black;
 $primary-color: #13242B;
 $secondary-color: #3B84D4;
 $highlight-color: #4BD940;
-$header-image: url(/images/GNOG-screenshot2bg.png);
+$header-image: url(/images/patternDarkchibi.png);
 $header-bg-color: #44675B;
 $body-bg-color: #FFF;
 $subsection-bg-color: #DFE8D2;
@@ -69,10 +69,10 @@ strong {
 .trailerbutt {
 	/* Rectangle 3: */
 /* Rectangle 3: */
-background: #FB28B4;
+background: $logo-color-pink;
 margin-bottom: 10px;
 margin-right: 10px;
-box-shadow: 0px 5px 0px 0px #AC0474;
+box-shadow: 0px 5px 0px 0px #9F006F;
 border-radius: 15px;
 width: 350px;
 height: 70px;
@@ -81,14 +81,18 @@ font-family: $headline-font;
 font-size: 30px;
 color: #FFFFFF;
 letter-spacing: 0px;
+text-decoration: underline;
+}
+.trailerbutt:hover {
+	background-color: #9F006F;
 }
 .preorderbutt {
 	/* Rectangle 3: */
 /* Rectangle 3: */
-background: $logo-color-orange;
+background: $logo-color-pink;
 margin-bottom: 10px;
 margin-right: 10px;
-box-shadow: 0px 5px 0px 0px #cb4e2d;
+box-shadow: 0px 5px 0px 0px #9F006F;
 border-radius: 15px;
 width: 350px;
 height: 70px;
@@ -97,6 +101,10 @@ font-family: $headline-font;
 font-size: 30px;
 color: #FFFFFF;
 letter-spacing: 0px;
+text-decoration: underline;
+}
+.preorderbutt:hover {
+	background-color: #9F006F;
 }
 
 .btn:hover {
@@ -106,22 +114,35 @@ letter-spacing: 0px;
 
 .header {
 	background-image: $header-image;
-	background-size: cover;
+	background-repeat: repeat;
+	background-size: 400px;
 	// background-attachment: fixed;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-position: center;
 	font-family: $body-font;
 	
 	font-size: 1em;
-	color: #fff;
+	color: $logo-color-pink;
 	// line-height: 1.5em;
+	span {
+		// background-color: white;
+		color: white;
+		border-radius: 5px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+
+	}
 
 	.h1 {
 		font-family: $headline-font;
+
 		font-size: 2.5em;
 		font-weight: 800;
-		color: #FFF;
+		color: #fff!important;
 		line-height: 1.3em;
+
 	}
 
 	p {
@@ -129,19 +150,17 @@ letter-spacing: 0px;
 		font-size: 1em;
 		
 		color: #fff;
-		span:nth-child(1) {
-			color: #6FF55C;
-		}
-		span:nth-child(2) {
-			color: #FF623E;
-		}
+
 	}
 
 	a {
 		font-size: 1.3em;
 		font-weight: 400;
-		color: $logo-color-pink;
+		color: #fff;
 		text-decoration: underline;
+	}
+	a:hover {
+		color: #270ACC;
 	}
 }
 
