@@ -7,9 +7,10 @@ try {
   //ignore 
 }
 var express = require('express')
-  , stylus = require('stylus')
-  , nib = require('nib')
   , MailChimpAPI = require('mailchimp').MailChimpAPI;
+
+var bodyParser = require('body-parser');
+var multer = require('multer'); 
 
 var mc_api_key = process.env.MC_API_KEY;
 var mc_newsletter_id = process.env.MC_NEWSLETTER_ID;
@@ -26,26 +27,16 @@ try {
  * App.
  */
 
-var app = express.createServer();
+var port = process.env.PORT || 3000;
+var app = express();
+app.use(express.static(__dirname + '/public'));
+app.set('views', __dirname);
+app.listen( port );
+app.engine('html', require('ejs').renderFile);
 
-/**
- * App configuration.
- */
-
-app.configure(function () {
-  app.use(express.static(__dirname + '/public'));
-  app.use(express.bodyParser());
-  app.set('views', __dirname);
-  //app.set('view engine', 'jade');
-  // make a custom html template
-  app.register('.html', {
-    compile: function(str, options){
-      return function(locals){
-        return str;
-      };
-    }
-  });
-});
+app.use(bodyParser.json()); // for parsing application/json
+app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
+app.use(multer()); // for parsing multipart/form-data
 
 /**
  * App routes.
@@ -113,12 +104,6 @@ app.post('/mailing_list/subscribe_general', function (req, res) {
 /**
  * App listen.
  */
-
-var port = process.env.PORT || 3000;
-app.listen(port, function () {
-  var addr = app.address();
-  console.log('   app listening on http://' + addr.address + ':' + addr.port);
-});
 
 
 // Subscribe to our mailing list
